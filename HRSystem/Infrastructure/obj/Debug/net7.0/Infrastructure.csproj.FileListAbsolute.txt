@@ -32,3 +32,20 @@ E:\Graduation_Project\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net
 E:\Graduation_Project\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
 E:\Graduation_Project\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
 E:\Graduation_Project\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\bin\Debug\net7.0\Infrastructure.runtimeconfig.json
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\bin\Debug\net7.0\Domain.dll
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\bin\Debug\net7.0\Domain.pdb
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll

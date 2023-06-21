@@ -1,248 +1,1532 @@
 {
   "Files": [
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HRPresentationLayer.bundle.scp.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HRPresentationLayer.bundle.scp.css",
       "PackagePath": "staticwebassets\\HRPresentationLayer.bundle.scp.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\css\\material-dashboard.css",
+      "PackagePath": "staticwebassets\\css\\material-dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\css\\material-dashboard.css.map",
+      "PackagePath": "staticwebassets\\css\\material-dashboard.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\css\\material-dashboard.min.css",
+      "PackagePath": "staticwebassets\\css\\material-dashboard.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\css\\nucleo-icons.css",
+      "PackagePath": "staticwebassets\\css\\nucleo-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\css\\nucleo-svg.css",
+      "PackagePath": "staticwebassets\\css\\nucleo-svg.css"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\fonts\\nucleo-icons.eot",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\fonts\\nucleo-icons.svg",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\fonts\\nucleo-icons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\fonts\\nucleo-icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\fonts\\nucleo-icons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\fonts\\nucleo.eot",
+      "PackagePath": "staticwebassets\\fonts\\nucleo.eot"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\fonts\\nucleo.ttf",
+      "PackagePath": "staticwebassets\\fonts\\nucleo.ttf"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\fonts\\nucleo.woff",
+      "PackagePath": "staticwebassets\\fonts\\nucleo.woff"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\fonts\\nucleo.woff2",
+      "PackagePath": "staticwebassets\\fonts\\nucleo.woff2"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\apple-icon.png",
+      "PackagePath": "staticwebassets\\images\\apple-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\bg-pricing.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-pricing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\bg-smart-home-1.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-smart-home-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\bg-smart-home-2.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-smart-home-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\bruce-mars.jpg",
+      "PackagePath": "staticwebassets\\images\\bruce-mars.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\down-arrow-dark.svg",
+      "PackagePath": "staticwebassets\\images\\down-arrow-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\down-arrow-white.svg",
+      "PackagePath": "staticwebassets\\images\\down-arrow-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\down-arrow.svg",
+      "PackagePath": "staticwebassets\\images\\down-arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\drake.jpg",
+      "PackagePath": "staticwebassets\\images\\drake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\home-decor-1.jpg",
+      "PackagePath": "staticwebassets\\images\\home-decor-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\home-decor-2.jpg",
+      "PackagePath": "staticwebassets\\images\\home-decor-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\home-decor-3.jpg",
+      "PackagePath": "staticwebassets\\images\\home-decor-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\icons\\flags\\AU.png",
+      "PackagePath": "staticwebassets\\images\\icons\\flags\\AU.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\icons\\flags\\BR.png",
+      "PackagePath": "staticwebassets\\images\\icons\\flags\\BR.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\icons\\flags\\DE.png",
+      "PackagePath": "staticwebassets\\images\\icons\\flags\\DE.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\icons\\flags\\GB.png",
+      "PackagePath": "staticwebassets\\images\\icons\\flags\\GB.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\icons\\flags\\US.png",
+      "PackagePath": "staticwebassets\\images\\icons\\flags\\US.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\illustrations\\chat.png",
+      "PackagePath": "staticwebassets\\images\\illustrations\\chat.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\illustrations\\danger-chat-ill.png",
+      "PackagePath": "staticwebassets\\images\\illustrations\\danger-chat-ill.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\illustrations\\dark-lock-ill.png",
+      "PackagePath": "staticwebassets\\images\\illustrations\\dark-lock-ill.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\illustrations\\error-404.png",
+      "PackagePath": "staticwebassets\\images\\illustrations\\error-404.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\illustrations\\error-500.png",
+      "PackagePath": "staticwebassets\\images\\illustrations\\error-500.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\illustrations\\illustration-lock.jpg",
+      "PackagePath": "staticwebassets\\images\\illustrations\\illustration-lock.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\illustrations\\illustration-reset.jpg",
+      "PackagePath": "staticwebassets\\images\\illustrations\\illustration-reset.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\illustrations\\illustration-signin.jpg",
+      "PackagePath": "staticwebassets\\images\\illustrations\\illustration-signin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\illustrations\\illustration-signup.jpg",
+      "PackagePath": "staticwebassets\\images\\illustrations\\illustration-signup.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\illustrations\\illustration-verification.jpg",
+      "PackagePath": "staticwebassets\\images\\illustrations\\illustration-verification.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\illustrations\\lock.png",
+      "PackagePath": "staticwebassets\\images\\illustrations\\lock.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\illustrations\\pattern-tree.svg",
+      "PackagePath": "staticwebassets\\images\\illustrations\\pattern-tree.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\illustrations\\rocket-white.png",
+      "PackagePath": "staticwebassets\\images\\illustrations\\rocket-white.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\ivana-square.jpg",
+      "PackagePath": "staticwebassets\\images\\ivana-square.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\ivana-squares.jpg",
+      "PackagePath": "staticwebassets\\images\\ivana-squares.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\ivancik.jpg",
+      "PackagePath": "staticwebassets\\images\\ivancik.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\kal-visuals-square.jpg",
+      "PackagePath": "staticwebassets\\images\\kal-visuals-square.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\logo-ct-dark.png",
+      "PackagePath": "staticwebassets\\images\\logo-ct-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\logo-ct.png",
+      "PackagePath": "staticwebassets\\images\\logo-ct.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\logos\\gray-logos\\logo-coinbase.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\gray-logos\\logo-coinbase.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\logos\\gray-logos\\logo-nasa.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\gray-logos\\logo-nasa.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\logos\\gray-logos\\logo-netflix.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\gray-logos\\logo-netflix.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\logos\\gray-logos\\logo-pinterest.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\gray-logos\\logo-pinterest.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\logos\\gray-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\gray-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\logos\\gray-logos\\logo-vodafone.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\gray-logos\\logo-vodafone.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\logos\\mastercard.png",
+      "PackagePath": "staticwebassets\\images\\logos\\mastercard.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\logos\\visa.png",
+      "PackagePath": "staticwebassets\\images\\logos\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\marie.jpg",
+      "PackagePath": "staticwebassets\\images\\marie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\meeting.jpg",
+      "PackagePath": "staticwebassets\\images\\meeting.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\office-dark.jpg",
+      "PackagePath": "staticwebassets\\images\\office-dark.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\product-12.jpg",
+      "PackagePath": "staticwebassets\\images\\product-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\products\\product-1-min.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-1-min.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\products\\product-11.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\products\\product-2-min.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-2-min.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\products\\product-3-min.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-3-min.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\products\\product-4-min.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-4-min.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\products\\product-5-min.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-5-min.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\products\\product-6-min.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-6-min.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\products\\product-7-min.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-7-min.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\products\\product-details-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\products\\product-details-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\products\\product-details-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-details-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\products\\product-details-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-details-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\products\\product-details-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-details-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\shapes\\pattern-lines.svg",
+      "PackagePath": "staticwebassets\\images\\shapes\\pattern-lines.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\shapes\\waves-white.svg",
+      "PackagePath": "staticwebassets\\images\\shapes\\waves-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\small-logos\\bootstrap.svg",
+      "PackagePath": "staticwebassets\\images\\small-logos\\bootstrap.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\small-logos\\creative-tim.svg",
+      "PackagePath": "staticwebassets\\images\\small-logos\\creative-tim.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\small-logos\\devto.svg",
+      "PackagePath": "staticwebassets\\images\\small-logos\\devto.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\small-logos\\github.svg",
+      "PackagePath": "staticwebassets\\images\\small-logos\\github.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\small-logos\\google-webdev.svg",
+      "PackagePath": "staticwebassets\\images\\small-logos\\google-webdev.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\small-logos\\icon-bulb.svg",
+      "PackagePath": "staticwebassets\\images\\small-logos\\icon-bulb.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\small-logos\\icon-sun-cloud.png",
+      "PackagePath": "staticwebassets\\images\\small-logos\\icon-sun-cloud.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\small-logos\\logo-asana.svg",
+      "PackagePath": "staticwebassets\\images\\small-logos\\logo-asana.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\small-logos\\logo-atlassian.svg",
+      "PackagePath": "staticwebassets\\images\\small-logos\\logo-atlassian.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\small-logos\\logo-invision.svg",
+      "PackagePath": "staticwebassets\\images\\small-logos\\logo-invision.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\small-logos\\logo-jira.svg",
+      "PackagePath": "staticwebassets\\images\\small-logos\\logo-jira.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\small-logos\\logo-slack.svg",
+      "PackagePath": "staticwebassets\\images\\small-logos\\logo-slack.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\small-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\images\\small-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\small-logos\\logo-xd.svg",
+      "PackagePath": "staticwebassets\\images\\small-logos\\logo-xd.svg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\team-1.jpg",
+      "PackagePath": "staticwebassets\\images\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\team-2.jpg",
+      "PackagePath": "staticwebassets\\images\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\team-3.jpg",
+      "PackagePath": "staticwebassets\\images\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\team-4.jpg",
+      "PackagePath": "staticwebassets\\images\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\team-5.jpg",
+      "PackagePath": "staticwebassets\\images\\team-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\tesla-model-s.png",
+      "PackagePath": "staticwebassets\\images\\tesla-model-s.png"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\vr-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\vr-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\js\\core\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\js\\material-dashboard.js",
+      "PackagePath": "staticwebassets\\js\\material-dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\js\\material-dashboard.js.map",
+      "PackagePath": "staticwebassets\\js\\material-dashboard.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\js\\material-dashboard.min.js",
+      "PackagePath": "staticwebassets\\js\\material-dashboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\js\\plugins\\Chart.extension.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\Chart.extension.js"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\js\\plugins\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap-notify.js"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\js\\plugins\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\chartjs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\js\\plugins\\smooth-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\smooth-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\js\\plugins\\world.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\world.js"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\Graduation_Project\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_avatars.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_avatars.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_backgrounds.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_backgrounds.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_cards-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_cards-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_cards.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_components.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_components.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_dark-version.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_dropdown-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_dropdown-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_dropup.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_dropup.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_floating-elements.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_floating-elements.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_icons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_info-areas.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_list-check.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_list-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_misc-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_misc.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_popovers.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_popovers.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_ripple.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_ripple.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_rtl-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_rtl-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_tilt.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_tilt.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_timeline.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_timeline.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_tooltips.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_utilities-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\badges\\_badge-circle.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\badges\\_badge-circle.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\badges\\_badge-dot.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\badges\\_badge-dot.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\badges\\_badge-floating.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\badges\\_badge-floating.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\badges\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\badges\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\cards\\card-background.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\cards\\card-background.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\cards\\card-blog.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\cards\\card-blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\cards\\card-horizontal.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\cards\\card-horizontal.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\cards\\card-pricing.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\cards\\card-pricing.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\cards\\card-profile.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\cards\\card-profile.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\cards\\card-rotate.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\cards\\card-rotate.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\custom\\_styles.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\custom\\_styles.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\custom\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\custom\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\forms\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_form-switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\forms\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\forms\\_inputs.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_inputs.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\mixins\\_colored-shadows.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_colored-shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\mixins\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\mixins\\_vendor.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_vendor.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\mixins\\mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\free\\_flatpickr.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\_flatpickr.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\free\\_nouislider.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\_nouislider.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\free\\_perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\_perfect-scrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\free\\_prism.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\_prism.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\free\\plugins.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\plugins.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_carousel-slick.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_carousel-slick.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_choices.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_choices.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_datatable-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_datatable-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_datatable.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_datatable.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_dragula.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_dragula.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_dropzone.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_dropzone.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_fullcalendar-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_fullcalendar-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_fullcalendar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_fullcalendar.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_glidejs.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_glidejs.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_highlight.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_highlight.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_kanban.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_kanban.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_leaflet.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_leaflet.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_list-check.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_list-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_photoswipe.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_photoswipe.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_quill.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_quill.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_rating-widget.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_rating-widget.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_sweetalert2-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_sweetalert2-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_sweetalert2.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_sweetalert2.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_vector-map.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_vector-map.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\multi-step.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\multi-step.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\plugins-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\plugins-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\theme-pro.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\theme-pro.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\theme.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_animations.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_animations.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_avatars.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_avatars.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_cards-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_cards-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_cards.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_choices.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_choices.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_dark-version.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_dropdowns.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_dropdowns.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_form-switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_full-calendar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_full-calendar.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_info-areas.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_misc-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_misc.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_ripple.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_ripple.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_table.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_table.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_timeline.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_timeline.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_utilities-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\scss\\material-dashboard\\variables\\_virtual-reality.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_virtual-reality.scss"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.HRPresentationLayer.Microsoft.AspNetCore.StaticWebAssets.props",

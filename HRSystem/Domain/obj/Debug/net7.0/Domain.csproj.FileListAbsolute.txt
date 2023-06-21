@@ -22,3 +22,15 @@ E:\Graduation_Project\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Doma
 E:\Graduation_Project\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\refint\Domain.dll
 E:\Graduation_Project\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.pdb
 E:\Graduation_Project\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\ref\Domain.dll
