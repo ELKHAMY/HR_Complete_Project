@@ -1,0 +1,33 @@
+﻿using Domain.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Reflection.Emit;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Infrastructure.Data
+{
+    public class HRAppDbContext :IdentityDbContext<ApplicationUser>
+    {
+        public HRAppDbContext(DbContextOptions options):base(options)
+        {
+            
+        }
+
+        public DbSet<Attendance> Attendance { get; set; }
+        public DbSet<Permissions> Permission { get; set; }
+        public DbSet<Department> Department { get; set; }
+        public DbSet<BonusHour> Bonus_Hours { get; set; }
+        public DbSet<MinusHour> Minus_Hours { get; set; }
+
+        public DbSet<EmployeePersonalData> EmployeePersonalData { get; set; }
+        public DbSet<Group> Group { get; set; }
+        public DbSet<OfficialVacations> OfficialVacations { get; set; }
+        public DbSet<WeeklyHoliday> WeeklyHoliday { get; set; }
+       
+    }
+}
