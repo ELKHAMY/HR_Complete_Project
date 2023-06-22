@@ -11,11 +11,11 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Data
 {
-    public class HRAppDbContext :IdentityDbContext<ApplicationUser>
+    public class HRAppDbContext : IdentityDbContext<ApplicationUser>
     {
-        public HRAppDbContext(DbContextOptions options):base(options)
-        {
-            
+        
+        public HRAppDbContext(DbContextOptions<HRAppDbContext> options): base(options)
+        {            
         }
 
         public DbSet<Attendance> Attendance { get; set; }

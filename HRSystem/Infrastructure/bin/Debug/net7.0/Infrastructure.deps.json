@@ -9,6 +9,8 @@
       "Infrastructure/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.7",
+          "Microsoft.EntityFrameworkCore.Design": "7.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.7"
         },
