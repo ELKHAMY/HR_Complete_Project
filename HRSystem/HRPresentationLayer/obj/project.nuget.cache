@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "U/n8E/+CdHpE5UskiTgJw7JDZPc2bm3osS59W1yPBieVI/aVAgtU0+jel1TWINsai7kRiu1ZKHGirGpJm/Yr8w==",
+  "dgSpecHash": "KJjRK2ugA+Mp+FvdWBb8+vdqoY2FMK0HjTdwJndrTtNdcj4OqfLNsTB51tXkea8//jakYFoIbnECQfqiPBOeOw==",
   "success": true,
   "projectFilePath": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\HRPresentationLayer.csproj",
   "expectedPackageFiles": [
@@ -85,6 +85,7 @@
     "C:\\Users\\hamed\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.7\\microsoft.entityframeworkcore.design.7.0.7.nupkg.sha512",
     "C:\\Users\\hamed\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.7\\microsoft.entityframeworkcore.relational.7.0.7.nupkg.sha512",
     "C:\\Users\\hamed\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.7\\microsoft.entityframeworkcore.sqlserver.7.0.7.nupkg.sha512",
+    "C:\\Users\\hamed\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.7\\microsoft.entityframeworkcore.tools.7.0.7.nupkg.sha512",
     "C:\\Users\\hamed\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\hamed\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\hamed\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
