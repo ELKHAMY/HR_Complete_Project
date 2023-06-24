@@ -1,4 +1,6 @@
+using Domain.Models;
 using Infrastructure.Data;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace HRPresentationLayer
@@ -12,8 +14,8 @@ namespace HRPresentationLayer
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            builder.Services.AddDbContext<HRAppDbContext>(option =>
-            option.UseSqlServer(builder.Configuration.GetConnectionString("connection")));
+            builder.Services.AddDbContext<HRAppDbContext>(o =>
+            o.UseSqlServer(builder.Configuration.GetConnectionString("connection")));
 
             var app = builder.Build();
 

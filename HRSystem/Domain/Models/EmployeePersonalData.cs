@@ -12,16 +12,15 @@ namespace Domain.Models
         public string National { get; set; }
         public DateTime? Birthday { get; set; }
         public string NationalId { get; set; }
+
         [ForeignKey("Department")]
         public int? DepartmentId { get; set; }
         public DateTime? WorkDate { get; set; }
         [Column(TypeName = "decimal(18,4)")]
         public decimal Salary { get; set; }
-
-        public ICollection<Attendance> Attendance { get; set; }
         public Department Department { get; set; }
-        public ICollection<BonusHour>? Bonus_Hours { get; set; }
-        public ICollection<MinusHour>? Minus_Hours { get; set; }
+        public ICollection<Attendance> Attendance { get; set; }
+        public ICollection<EmployeeWorkData> EmployeeWorkData { get; set; }
 
 
 
