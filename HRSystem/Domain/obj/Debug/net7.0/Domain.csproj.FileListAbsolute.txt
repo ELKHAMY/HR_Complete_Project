@@ -34,3 +34,15 @@ C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\
 C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\refint\Domain.dll
 C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.pdb
 C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\ref\Domain.dll
+E:\ITI\ITI courses\grad_project\HRSystem\Domain\bin\Debug\net7.0\Domain.deps.json
+E:\ITI\ITI courses\grad_project\HRSystem\Domain\bin\Debug\net7.0\Domain.dll
+E:\ITI\ITI courses\grad_project\HRSystem\Domain\bin\Debug\net7.0\Domain.pdb
+E:\ITI\ITI courses\grad_project\HRSystem\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+E:\ITI\ITI courses\grad_project\HRSystem\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\ITI courses\grad_project\HRSystem\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+E:\ITI\ITI courses\grad_project\HRSystem\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+E:\ITI\ITI courses\grad_project\HRSystem\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+E:\ITI\ITI courses\grad_project\HRSystem\Domain\obj\Debug\net7.0\Domain.dll
+E:\ITI\ITI courses\grad_project\HRSystem\Domain\obj\Debug\net7.0\refint\Domain.dll
+E:\ITI\ITI courses\grad_project\HRSystem\Domain\obj\Debug\net7.0\Domain.pdb
+E:\ITI\ITI courses\grad_project\HRSystem\Domain\obj\Debug\net7.0\ref\Domain.dll

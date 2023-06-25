@@ -2,11 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\HRSystem",
-    "\\HRSystem\\HRPresentationLayer",
-    "\\HRSystem\\HRPresentationLayer\\Controllers",
-    "\\HRSystem\\HRPresentationLayer\\Views",
-    "\\HRSystem\\HRPresentationLayer\\Views\\Home"
+    "\\HRSystem\\Domain"
   ],
-  "SelectedNode": "\\HRSystem\\HRPresentationLayer\\Properties",
+  "SelectedNode": "\\HRSystem",
   "PreviewInSolutionExplorer": false
 }
