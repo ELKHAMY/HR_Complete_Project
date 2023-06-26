@@ -26,24 +26,38 @@ namespace HRPresentationLayer.Controllers
             }
 
             [HttpPost]
-            public IActionResult Create(OfficialVacationsVM model)
+        public IActionResult Create(OfficialVacationsVM model)
+        {
+            if (ModelState.IsValid)
             {
-                if (ModelState.IsValid)
+                var existingVacation = vac.GetAll().FirstOrDefault(v => v.Date == model.Date);
+
+                if (existingVacation != null)
                 {
-                    var vacss = new OfficialVacations
+                    // Vacation with the same date already exists, return an error message
+                    ModelState.AddModelError("Date", "الإجازة بهذا التاريخ موجودة بالفعل.");
+                }
+                else
+                {
+                    // Create a new vacation
+                    var newVacation = new OfficialVacations
                     {
                         Name = model.Name,
                         Date = model.Date
                     };
-                    vac.Create(vacss);
+                    vac.Create(newVacation);
                     vac.Save();
+
+                    // Redirect to the create page to show the success message
                     return RedirectToAction("Create");
                 }
-                model.offvac = vac.GetAll();
-                return View("Create", model);
             }
 
-            public IActionResult Delete(int id)
+            // If there was an error or the model state was invalid, return the view with the updated model
+            model.offvac = vac.GetAll();
+            return View("Create", model);
+        }
+        public IActionResult Delete(int id)
             {
                 vac.Delete(id);
                 vac.Save();
@@ -61,13 +75,23 @@ namespace HRPresentationLayer.Controllers
             public IActionResult Edit([Bind("Id,Name,Day,Date")] OfficialVacations evac, int id)
             {
 
-                if (ModelState.IsValid)
+            if (ModelState.IsValid)
+            {
+                var existingVacation = vac.GetAll().FirstOrDefault(v => v.Date == evac.Date);
+
+                if (existingVacation != null)
+                {
+                    // Vacation with the same date already exists, return an error message
+                    ModelState.AddModelError("Date", "الإجازة بهذا التاريخ موجودة بالفعل.");
+                }
+                else
                 {
                     vac.update(id, evac);
                     vac.Save();
                     return RedirectToAction("Create");
 
                 }
+            }
 
 
                 return View(evac);
