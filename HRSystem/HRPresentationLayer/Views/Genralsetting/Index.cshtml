@@ -1,0 +1,56 @@
+﻿@model Infrastructure.ViewModels.HoursweeklyholidaysViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>الاعدادات العامة </h1>
+<div class="row">
+    <div class="col-md-4">
+<form>
+
+    <div style="   border: 2px solid black;
+                border-radius: 5px;">
+        <h3 style=" padding-right :80px;">
+      الاضافات
+        </h3>
+    </div>
+    <br />
+   
+    <div>
+        <label>الاضافة</label>
+        <input type="text" disabled value="@Model.AddHours" />
+    </div>
+    <div>
+        <label>الخصم</label>
+        <input type="text" disabled value="@Model.RemoveHours" />
+    </div>
+
+    <br />
+
+    <div style="   border: 2px solid black;
+                border-radius: 5px;">
+        <h3 style=" padding-right :80px;">
+الاجازات الاسبوعية         </h3>
+    </div>
+
+            <br />
+
+
+    <div>
+        <label asp-for="Day1">اليوم الاول </label>
+        <select class="form-control" asp-for="Day1" disabled>
+            <option value="@Model.Day1">@Model.Day1</option>
+        </select>
+    </div>
+    <div>
+        <label asp-for="Day2">اليوم الثاني </label>
+        <select class="form-control" asp-for="Day2" disabled>
+            <option value="@Model.Day2">@Model.Day2</option>
+        </select>
+    </div>
+
+</form>
+</div>
+</div>
+<a class="btn btn-warning" asp-controller="Genralsetting" asp-action="Edit">تعديل</a>
+

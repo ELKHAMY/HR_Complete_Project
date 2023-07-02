@@ -1,5 +1,6 @@
 using Domain.Models;
 using Infrastructure.Data;
+using Infrastructure.IRepsository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,6 +17,11 @@ namespace HRPresentationLayer
 
             builder.Services.AddDbContext<HRAppDbContext>(o =>
             o.UseSqlServer(builder.Configuration.GetConnectionString("connection")));
+
+            builder.Services.AddScoped<IDepartmentrep, Departmentrep>();
+
+            builder.Services.AddScoped<IEmployeerep, Employeerep>();
+            builder.Services.AddScoped<IGenral, Genral>();
 
             var app = builder.Build();
 

@@ -17,7 +17,7 @@ namespace Infrastructure.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.8")
+                .HasAnnotation("ProductVersion", "7.0.7")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -135,6 +135,9 @@ namespace Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<bool>("Isdeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -156,16 +159,21 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime?>("AttandanceDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime?>("Birthday")
                         .HasColumnType("datetime2");
 
                     b.Property<int?>("DepartmentId")
-                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<string>("Gender")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Isdeleted")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -179,39 +187,12 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime?>("OutDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Phone")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("Salary")
-                        .HasColumnType("decimal(18,4)");
-
-                    b.Property<DateTime?>("WorkDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("DepartmentId");
-
-                    b.ToTable("EmployeePersonalData");
-                });
-
-            modelBuilder.Entity("Domain.Models.EmployeeWorkData", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime?>("AttandanceDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int?>("EmployeeID")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime?>("OutDate")
-                        .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("WorkDate")
                         .HasColumnType("datetime2");
@@ -221,9 +202,9 @@ namespace Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EmployeeID");
+                    b.HasIndex("DepartmentId");
 
-                    b.ToTable("EmployeeWorkData");
+                    b.ToTable("EmployeePersonalData");
                 });
 
             modelBuilder.Entity("Domain.Models.Group", b =>
@@ -494,20 +475,9 @@ namespace Infrastructure.Migrations
                 {
                     b.HasOne("Domain.Models.Department", "Department")
                         .WithMany("Employees")
-                        .HasForeignKey("DepartmentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("DepartmentId");
 
                     b.Navigation("Department");
-                });
-
-            modelBuilder.Entity("Domain.Models.EmployeeWorkData", b =>
-                {
-                    b.HasOne("Domain.Models.EmployeePersonalData", "EmpolyeePersonalData")
-                        .WithMany("EmployeeWorkData")
-                        .HasForeignKey("EmployeeID");
-
-                    b.Navigation("EmpolyeePersonalData");
                 });
 
             modelBuilder.Entity("Domain.Models.Permissions", b =>
@@ -580,8 +550,6 @@ namespace Infrastructure.Migrations
             modelBuilder.Entity("Domain.Models.EmployeePersonalData", b =>
                 {
                     b.Navigation("Attendance");
-
-                    b.Navigation("EmployeeWorkData");
                 });
 
             modelBuilder.Entity("Domain.Models.Group", b =>

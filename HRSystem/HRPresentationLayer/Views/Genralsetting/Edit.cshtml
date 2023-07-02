@@ -1,0 +1,77 @@
+﻿@model Infrastructure.ViewModels.HoursweeklyholidaysViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>الاعدادات العامة </h1>
+<div class="row">
+    <div class="col-md-4">
+<form asp-action="Edit">
+
+            <div style="   border: 2px solid black;
+                border-radius: 5px;">
+                <h3 style=" padding-right :80px;">
+                    الاضافات
+                </h3>
+            </div>
+
+
+    <div class="form-group">
+        <label  class="control-label">الاضافة</label>
+        <input asp-for="AddHours" class="form-control" />
+        <span asp-validation-for="AddHours" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label">الخصم</label>
+        <input asp-for="RemoveHours" class="form-control" />
+        <span asp-validation-for="RemoveHours" class="text-danger"></span>
+    </div>
+
+
+            <div style="   border: 2px solid black;
+                border-radius: 5px;">
+                <h3 style=" padding-right :80px;">
+                    الاجازات الاسبوعية
+                </h3>
+            </div>
+
+    <div class="form-group">
+        <label>اليوم الاول</label>
+        <select class="form-control" asp-for="Day1" >
+            <option value="0">--اختر اليوم الاول--</option>
+            <option value="الاحد">الاحد</option>
+            <option value="الاثنين">الاثنين</option>
+            <option value="الثلاثاء">الثلاثاء</option>
+            <option value="الاربعاء">الاربعاء</option>
+            <option value="الخميس">الخميس</option>
+            <option value="الجمعة">الجمعة</option>
+            <option value="السبت">السبت</option>
+
+
+        </select>
+        <span asp-validation-for="Day1" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>اليوم الثاني</label>
+        <select class="form-control" asp-for="Day2">
+            <option value="0">--اختر اليوم الثاني--</option>
+            <option value="الاحد">الاحد</option>
+            <option value="الاثنين">الاثنين</option>
+            <option value="الثلاثاء">الثلاثاء</option>
+            <option value="الاربعاء">الاربعاء</option>
+            <option value="الخميس">الخميس</option>
+            <option value="الجمعة">الجمعة</option>
+            <option value="السبت">السبت</option>
+
+
+        </select>
+        <span asp-validation-for="Day2" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="حفظ" class="btn btn-primary" />
+    </div>
+</form>
+</div>
+</div>
+

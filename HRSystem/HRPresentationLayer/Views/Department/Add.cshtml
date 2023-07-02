@@ -1,0 +1,19 @@
+﻿@model Department
+@{
+    ViewData["Title"] = "Add";
+}
+
+<h1>اضافة قسم</h1>
+
+<form method="post">
+    <div>
+    <label asp-for="Name"></label>
+    <input class="form-control" asp-for="Name" />
+    <span asp-validation-for="Name" class="text-danger" ></span>
+    </div>
+
+    <div> 
+        <input type="submit" value="حفظ" class="btn btn-primary" />
+    </div>
+</form>
+
