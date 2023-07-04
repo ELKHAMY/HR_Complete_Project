@@ -1,5 +1,6 @@
 using Domain.Models;
 using Infrastructure.Data;
+using Infrastructure.IRepsository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,7 +17,9 @@ namespace HRPresentationLayer
 
             builder.Services.AddDbContext<HRAppDbContext>(o =>
             o.UseSqlServer(builder.Configuration.GetConnectionString("connection")));
-
+          
+            builder.Services.AddScoped<IAttendanceRepository, AttendanceRepository>();
+            builder.Services.AddControllersWithViews();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
