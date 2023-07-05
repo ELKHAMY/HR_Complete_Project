@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7dqd6Hx1xgWjCigZyE5rNZwbU5SRgz8f3+udkV3lITCd4myHmEMTn1jpQkt1xaMcigv21B8Vvy7R+skkQTBcQg==",
+  "dgSpecHash": "IBmJTaHPeVbzNFnLeBF+2dHOKHxMgIY1yCDksKadAUXWb93fLh4gHQNqFgvjOAPWmOpzi+AvL6wh0V5C7K7BnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hamed\\OneDrive\\Desktop\\New folder\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj",
+  "projectFilePath": "E:\\Copied GP Project - Copy\\HRSystem\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hamed\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.7\\microsoft.aspnetcore.cryptography.internal.7.0.7.nupkg.sha512",
     "C:\\Users\\hamed\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.7\\microsoft.aspnetcore.cryptography.keyderivation.7.0.7.nupkg.sha512",

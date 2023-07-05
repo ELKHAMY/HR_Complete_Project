@@ -1,0 +1,66 @@
+﻿@model RegisterViewModel
+@*@{
+    SelectList? groupList = new SelectList(Model.Roles, "Id", "Name");
+
+}*@
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" dir="rtl" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">أضف مستخدم</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="Register" method="post">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label">الإسم </label>
+                        <input asp-for="Name" class="form-control border" id="uName" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="UserName" class="control-label">أسم المستخدم</label>
+                        <input asp-for="UserName" class="form-control border" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Email" class="control-label">البريد الالكتروني</label>
+                        <input asp-for="Email" class="form-control border" id="email" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Password" class="control-label">كلمة السر</label>
+                        <input asp-for="Password" class="form-control border" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ConfirmPassword" class="control-label">تأكيد كلمة السر</label>
+                        <input asp-for="ConfirmPassword" class="form-control border" />
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label"> نشط
+                            <input class="form-check-input mx-5" asp-for="ActiveUser" /> 
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="SelectedRole">إسم المجموعة</label>
+                        <select asp-for="SelectedRole" class="form-control" id="roleName">
+                           @foreach (var role in Model.Roles)
+                            {
+                               <option value="@role.Name" id="roleName">@role.Name</option>
+                            }
+                        </select>
+                    </div>  
+                    <div class="form-group">
+                        <input type="submit" value="حفظ" class="btn btn-success mt-2" id="btnsave" />
+                        <input type="submit" value="اغلاق" data-bs-dismiss="modal"  class="btn btn-danger mt-2" />
+                    </div>
+             </form>
+            </div>
+           
+        </div>
+    </div>
+</div>

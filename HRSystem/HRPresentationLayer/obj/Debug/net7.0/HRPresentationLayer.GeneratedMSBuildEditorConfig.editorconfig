@@ -9,57 +9,93 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HRPresentationLayer
 build_property.RootNamespace = HRPresentationLayer
-build_property.ProjectDir = C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\HRPresentationLayer\
+build_property.ProjectDir = E:\Copied GP Project - Copy\HRSystem\HRPresentationLayer\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\HRPresentationLayer
+build_property.MSBuildProjectDirectory = E:\Copied GP Project - Copy\HRSystem\HRPresentationLayer
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/hamed/OneDrive/Desktop/New folder/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Account/Register.cshtml]
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Account/Denied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hamed/OneDrive/Desktop/New folder/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Home/Index.cshtml]
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Account/Role.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Account/_PartialRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxfUGFydGlhbFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Account/_PartialRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxfUGFydGlhbFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hamed/OneDrive/Desktop/New folder/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Home/Privacy.cshtml]
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hamed/OneDrive/Desktop/New folder/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/Error.cshtml]
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Permissions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzc2lvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hamed/OneDrive/Desktop/New folder/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialAsideNav.cshtml]
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Shared/_PartialAsideNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsQXNpZGVOYXYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hamed/OneDrive/Desktop/New folder/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialHomeCards.cshtml]
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Shared/_PartialHomeCards.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsSG9tZUNhcmRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hamed/OneDrive/Desktop/New folder/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialNavbar.cshtml]
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Shared/_PartialNavbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsTmF2YmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hamed/OneDrive/Desktop/New folder/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialUIOptions.cshtml]
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Shared/_PartialUIOptions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsVUlPcHRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hamed/OneDrive/Desktop/New folder/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Shared/_PatrialAccountIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXRyaWFsQWNjb3VudEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hamed/OneDrive/Desktop/New folder/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/_ViewImports.cshtml]
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hamed/OneDrive/Desktop/New folder/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/_ViewStart.cshtml]
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hamed/OneDrive/Desktop/New folder/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_Layout.cshtml]
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dhgsq5rb42

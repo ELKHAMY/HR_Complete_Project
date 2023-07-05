@@ -1,5 +1,11 @@
-﻿<!-- Navbar -->
+﻿@inject UserManager<ApplicationUser> userManager
+@inject SignInManager<ApplicationUser> signInManager
+
+
+
+<!-- Navbar -->
 <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" navbar-scroll="true">
+    @if(signInManager.IsSignedIn(User)){
     <div class="container-fluid py-1 px-3">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 ">
@@ -19,8 +25,17 @@
                 <li class="nav-item d-flex align-items-center">
                     <a href="javascript:;" class="nav-link text-body font-weight-bold px-0">
                         <i class="fa fa-user me-sm-1"></i>
-                        <span class="d-sm-inline d-none">يسجل دخول</span>
+                        <span class="d-sm-inline d-none">@((await userManager.GetUserAsync(User)).Name) </span>
                     </a>
+                </li>
+                <li>
+                        <form asp-action="Logout" asp-controller="Account" method="post">
+                            <input type="submit" value="تسجيل خروج" class=""/>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z" />
+                                <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z" />
+                            </svg>
+                        </form>
                 </li>
                 <li class="nav-item d-xl-none pe-3 d-flex align-items-center">
                     <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
@@ -112,5 +127,6 @@
             </ul>
         </div>
     </div>
+    }
 </nav>
 <!-- End Navbar -->
