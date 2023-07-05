@@ -19,12 +19,9 @@ namespace Infrastructure.Data
         }
 
         public DbSet<Attendance> Attendance { get; set; }
-        public DbSet<Permissions> Permission { get; set; }
         public DbSet<Department> Department { get; set; }
         public DbSet<Hours> Hours { get; set; }
         public DbSet<EmployeePersonalData> EmployeePersonalData { get; set; }
-        public DbSet<EmployeeWorkData> EmployeeWorkData { get; set; }
-        public DbSet<Group> Group { get; set; }
         public DbSet<OfficialVacations> OfficialVacations { get; set; }
         public DbSet<WeeklyHoliday> WeeklyHoliday { get; set; }
        
