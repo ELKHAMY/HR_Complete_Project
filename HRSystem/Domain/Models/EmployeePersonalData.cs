@@ -14,7 +14,7 @@ namespace Domain.Models
         public string Gender { get; set; }
         public string National { get; set; }
 
-        [AtLeast20YearsAgo]
+      //  [AtLeast20YearsAgo]
 
         public DateTime? Birthday { get; set; }
         [RegularExpression("^\\d{11}$" , ErrorMessage = "يجب ان يحتوي الرقم القومي علي 11 ارقام")]    
@@ -23,7 +23,7 @@ namespace Domain.Models
         [ForeignKey("Department")]
         public int? DepartmentId { get; set; }
 
-        [After2008]
+      //  [After2008]
         public DateTime? WorkDate { get; set; }
         [Column(TypeName = "decimal(18,4)")]
 
