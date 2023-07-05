@@ -12,8 +12,6 @@ namespace Domain.Models
     {
         public string Name { get; set; }
         public bool ActiveUser { get; set; }
-        [ForeignKey("Group")]
-        public int? GroupId { get; set; }
-        public Group Group { get; set; }
+      
     }
 }
