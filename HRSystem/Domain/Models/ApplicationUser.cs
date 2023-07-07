@@ -13,8 +13,6 @@ namespace Domain.Models
     {
         public string Name { get; set; }
         public bool ActiveUser { get; set; }
-        
-
 
     }
 }
