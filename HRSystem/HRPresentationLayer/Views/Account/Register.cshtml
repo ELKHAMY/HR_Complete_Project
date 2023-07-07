@@ -4,7 +4,7 @@
 }
 <!-- Button trigger modal -->
 
-<button type="button" class="btn btn-info mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" class="btn btn-info mt-2" onclick="Reset()" data-bs-toggle="modal" data-bs-target="#exampleModal">
     أضف مستخدم
 </button>
 <table class="table table-striped mb-0 rounded-3" dir = "rtl">
@@ -12,6 +12,7 @@
             <tr>
                 <th scope="col">الاسم</th>
                 <th scope="col">البريد الالكتروني</th>
+                <th scope="col">إسم المستخدم</th>
                 <th scope="col">المجموعة</th>
                 <th scope="col">العمليات</th>
             </tr>
@@ -23,9 +24,10 @@
             <tr>
                 <td>@item.Name</td>
                 <td>@item.Email</td>
+                <td>@item.UserName</td>
                 <td>@item.roleName</td>
                 <td>
-                    <input type="submit" value="تعديل" asp-controller="Account" asp-action="Register" onclick="Edit('@item.Name','@item.Email','@item.roleName')" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                    <input type="submit" value="تعديل" asp-controller="Account" asp-action="Register" onclick="Edit('@item.Name','@item.Email','@item.roleName','@item.UserName','@item.Password')" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" />
                 
                 </td>
                 

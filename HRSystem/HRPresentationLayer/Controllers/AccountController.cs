@@ -62,8 +62,11 @@ namespace HRPresentationLayer.Controllers
                 var rolesusers = await _userManager.GetRolesAsync(user);
                 UserRoleVM.Add(new UserRoleViewModel
                 {
+                    Id = user.Id,
                     Name = user.Name,
                     Email = user.Email,
+                    UserName = user.UserName,
+                    Password = user.PasswordHash,
                     roleName = rolesusers.FirstOrDefault()
                 });
                 
@@ -75,49 +78,64 @@ namespace HRPresentationLayer.Controllers
             return View(viewModel);
         }
 
-        
+
 
         [HttpPost]
         [Authorize(Permissions.Account.Create)]
         public async Task<IActionResult> Register(RegisterViewModel register)
         {
-            
+
             if (ModelState.IsValid)
             {
                 var user = new ApplicationUser
                 {
+                    Id = register.Id,
                     Name = register.Name,
                     UserName = register.UserName,
                     Email = register.Email,
                     ActiveUser = register.ActiveUser
                 };
-                
-                var result = await _userManager.CreateAsync(user, register.Password);
+                if (user.Id == null)
+                { // Add
+                    user.Id = Guid.NewGuid().ToString();
+                    var result = await _userManager.CreateAsync(user, register.Password);
 
-                var roles = GetAllRoles();
-                register.Roles = roles.Select(r => new RoleViewModel { Id = r.Id, Name = r.Name }).ToList();
-
-                if (result.Succeeded)
-                {
-                    if (register.SelectedRole != null)
+                    register.Roles =  _roleManager.Roles.Select(r => new RoleViewModel { Id = r.Id, Name = r.Name }).ToList();
+                    if (result.Succeeded && (await _roleManager.FindByNameAsync(register.SelectedRole) != null))
                     {
-                        var role = await _roleManager.FindByNameAsync(register.SelectedRole);
-                        if (role != null)
-                        {
-                            await _userManager.AddToRoleAsync(user, register.SelectedRole);
-                        }
+                        await _userManager.AddToRoleAsync(user, register.SelectedRole);
+                        return RedirectToAction("Register");
                     }
-                    return RedirectToAction("Register");
+                    foreach (var error in result.Errors)
+                    {
+                        ModelState.AddModelError(string.Empty, error.Description);
+                    }
                 }
-                foreach (var error in result.Errors)
-                {
-                    ModelState.AddModelError(string.Empty, error.Description);
+                else
+                { // Update
+                    var userUpdate = await _userManager.FindByIdAsync(user.Id);
+                    if (userUpdate != null)
+                    {
+                        //  userUpdate.Id = register.Id;
+                        userUpdate.Name = register.Name;
+                        userUpdate.UserName = register.UserName;
+                        userUpdate.Email = register.Email;
+                        userUpdate.ActiveUser = register.ActiveUser;
+
+                        var result = await _userManager.UpdateAsync(userUpdate);
+                        if (result.Succeeded)
+                        {
+                            var oldRole = await _userManager.GetRolesAsync(userUpdate);
+                            await _userManager.RemoveFromRolesAsync(userUpdate, oldRole);
+                            await _userManager.AddToRoleAsync(userUpdate, register.SelectedRole);
+                        }
+                     }
+                 }
+                    return RedirectToAction("Register", "Account");
                 }
-            }
-            register.Roles = await _roleManager.Roles.Select(r=>new RoleViewModel { Id  = r.Id,Name = r.Name}).ToListAsync();
-            return View(register);
-          
+            return RedirectToAction("Register", "Account");
         }
+          
 
         #endregion
 
@@ -141,76 +159,47 @@ namespace HRPresentationLayer.Controllers
         {
             var roles = GetAllRoles();
             if (model.Id == null && model.Name != null)
-            {
+            {// Add
                 var result = await _roleManager.CreateAsync(new IdentityRole(model.Name));
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Role");
+                    return RedirectToAction(nameof(Role));
                 }
             }
+            else
+            { // Update
+                var roleUpdate = await _roleManager.FindByIdAsync(model.Id);
+                roleUpdate.Id = model.Id;
+                roleUpdate.Name = model.Name;
+                var ResultUpdate = await _roleManager.UpdateAsync(roleUpdate);
+                if (ResultUpdate.Succeeded)
+                {
+                    return RedirectToAction("Role");
+                }
+                return RedirectToAction("Role");
+            }
             model.Roles = roles;
-            return View("Role");
+            return View("Role",model);
         }
 
         #region EditRole
 
 
-        [HttpGet]
-        [Authorize(Permissions.Account.View)]
-        public async Task<IActionResult> EditRole(string Id)
-        {
-            var role = _roleManager.FindByIdAsync(Id).Result;
-            
-            var model = new RoleViewModel
-            {
-                Id = role.Id,
-                Name = role.Name
-            };
-            return View("Role", model);
-        }
-
-
         //[HttpGet]
-        //public IActionResult EditRole(string Id)
+        //[Authorize(Permissions.Account.View)]
+        //public async Task<IActionResult> EditRole(string Id)
         //{
-        //    if (Id == null)
-        //        return BadRequest();
-
-
-        //    var result = GetById(Id);
-
-        //    if (result == null)
-        //        return NotFound();
-
-        //    var vmRole = new RoleViewModel
+        //    var role = _roleManager.FindByIdAsync(Id).Result;
+            
+        //    var model = new RoleViewModel
         //    {
-        //        Id = result.Id,
-        //        Name = result.Name
+        //        Id = role.Id,
+        //        Name = role.Name
         //    };
-        //    return View(vmRole);
+        //    return View("Role", model);
         //}
 
 
-        //public IdentityRole GetById(string id)
-        //{
-        //    return _hRcontext.Roles.FirstOrDefault(d => d.Id == id);
-
-        //}
-        //[HttpPost]
-        //public async Task<IActionResult> EditRole(string id, RoleViewModel model)
-        //{
-        //    List<IdentityRole> roles = GetAllRoles();
-        //    if (ModelState.IsValid)
-        //    {
-        //        var result = await _roleManager.UpdateAsync(new IdentityRole(model.Name));
-        //        if (result.Succeeded)
-        //        {
-        //            return RedirectToAction("Role");
-        //        }
-        //    }
-        //    model.Roles = roles;
-        //    return View(model);
-        //}
         #endregion
 
         #endregion
