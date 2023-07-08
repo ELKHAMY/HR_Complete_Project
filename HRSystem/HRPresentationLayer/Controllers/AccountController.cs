@@ -87,6 +87,7 @@ namespace HRPresentationLayer.Controllers
 
             if (ModelState.IsValid)
             {
+                
                 var user = new ApplicationUser
                 {
                     Id = register.Id,
@@ -114,7 +115,7 @@ namespace HRPresentationLayer.Controllers
                 else
                 { // Update
                     var userUpdate = await _userManager.FindByIdAsync(user.Id);
-                    if (userUpdate != null)
+                    if (userUpdate != null && userUpdate.Id == register.Id)
                     {
                         //  userUpdate.Id = register.Id;
                         userUpdate.Name = register.Name;

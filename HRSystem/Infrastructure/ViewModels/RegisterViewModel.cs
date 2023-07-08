@@ -11,7 +11,7 @@ namespace Infrastructure.ViewModels
 {
     public class RegisterViewModel
     {
-        public string? Id { get; set; }
+        public string Id { get; set; }
         public string Name { get; set; }
         public string UserName { get; set; }
         public string Email { get; set; }
@@ -34,7 +34,7 @@ namespace Infrastructure.ViewModels
     }
     public class UserRoleViewModel
     {
-        public string? Id { get; set; }
+        public string Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string roleName { get; set; }

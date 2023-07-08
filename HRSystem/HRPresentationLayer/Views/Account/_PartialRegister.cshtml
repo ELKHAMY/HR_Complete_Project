@@ -16,6 +16,7 @@
                 <form asp-action="Register" method="post">
                     <div asp-validation-summary="All" class="text-danger"></div>
                     <div class="form-group">
+                        <input asp-for="Id" class="form-control border" id="idUser" />
                         <label asp-for="Name" class="control-label">الإسم </label>
                         <input asp-for="Name" class="form-control border" id="uName" />
                         <span asp-validation-for="Name" class="text-danger"></span>

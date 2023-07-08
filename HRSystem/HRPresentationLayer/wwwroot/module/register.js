@@ -1,12 +1,15 @@
 ﻿
 
-Edit = (name, email,roleName,username,password) => {
+Edit = (id,name, email,roleName,username,password) => {
     document.getElementById("title").innerHTML = "تعديل مستخدم";
     document.getElementById("btnsave").value = "تعديل";
+    document.getElementById("idUser").value = id;
     document.getElementById("uName").value = name;
     document.getElementById("email").value = email;
     document.getElementById("username").value = username;
     document.getElementById("roleName").value = roleName;
+/*    document.getElementById("idUser").hide*/
+    $('#idUser').hide();
     $('#fgpassword').hide();
     $('#cfgpassword').hide();
 
