@@ -1,0 +1,23 @@
+﻿@model Department
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>حذف</h1>
+
+<div>
+    <h3>هل انت متأكد من الحذف</h3>
+</div>
+
+<form asp-action="Delete">
+
+    <div>
+        <label>الاسم</label>
+        <input asp-for="Name" class="form-control" disabled />
+    </div>
+
+    <div>
+        <input type="submit" value="حذف" class="btn btn-danger" />
+    </div>
+
+</form>

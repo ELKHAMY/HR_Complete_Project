@@ -5,31 +5,31 @@
 namespace Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class v3 : Migration
+    public partial class v2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AlterColumn<decimal>(
-                name: "salary",
+                name: "Salary",
                 table: "EmployeePersonalData",
-                type: "decimal(18,2)",
+                type: "decimal(18,4)",
                 nullable: true,
                 oldClrType: typeof(decimal),
-                oldType: "decimal(18,4)",
-                oldNullable: true);
+                oldType: "decimal(18,4)");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AlterColumn<decimal>(
-                name: "salary",
+                name: "Salary",
                 table: "EmployeePersonalData",
                 type: "decimal(18,4)",
-                nullable: true,
+                nullable: false,
+                defaultValue: 0m,
                 oldClrType: typeof(decimal),
-                oldType: "decimal(18,2)",
+                oldType: "decimal(18,4)",
                 oldNullable: true);
         }
     }

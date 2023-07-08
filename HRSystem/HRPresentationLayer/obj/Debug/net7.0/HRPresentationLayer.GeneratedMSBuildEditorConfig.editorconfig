@@ -9,69 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HRPresentationLayer
 build_property.RootNamespace = HRPresentationLayer
-build_property.ProjectDir = C:\Users\Options\Downloads\dailyAttendence\HR_GraduationProject\HRSystem\HRPresentationLayer\
+build_property.ProjectDir = C:\Users\Options\Downloads\Compressed\HR_GraduationProject-Migration_UpdateDb\HRSystem\HRPresentationLayer\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Options\Downloads\dailyAttendence\HR_GraduationProject\HRSystem\HRPresentationLayer
+build_property.MSBuildProjectDirectory = C:\Users\Options\Downloads\Compressed\HR_GraduationProject-Migration_UpdateDb\HRSystem\HRPresentationLayer
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Options/Downloads/dailyAttendence/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Account/Register.cshtml]
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Options/Downloads/dailyAttendence/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Attendance/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxFZGl0LmNzaHRtbA==
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Department/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Options/Downloads/dailyAttendence/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Attendance/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxJbmRleC5jc2h0bWw=
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Department/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Options/Downloads/dailyAttendence/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Attendance/New.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxOZXcuY3NodG1s
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Department/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Options/Downloads/dailyAttendence/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Home/Index.cshtml]
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Department/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Employee/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Employee/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Employee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Genralsetting/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmFsc2V0dGluZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Genralsetting/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmFsc2V0dGluZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Options/Downloads/dailyAttendence/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Home/Privacy.cshtml]
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Options/Downloads/dailyAttendence/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/Error.cshtml]
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Options/Downloads/dailyAttendence/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialAsideNav.cshtml]
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Shared/_PartialAsideNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsQXNpZGVOYXYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Options/Downloads/dailyAttendence/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialHomeCards.cshtml]
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Shared/_PartialHomeCards.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsSG9tZUNhcmRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Options/Downloads/dailyAttendence/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialNavbar.cshtml]
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Shared/_PartialNavbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsTmF2YmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Options/Downloads/dailyAttendence/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialUIOptions.cshtml]
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Shared/_PartialUIOptions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsVUlPcHRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Options/Downloads/dailyAttendence/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Options/Downloads/dailyAttendence/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/_ViewImports.cshtml]
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Options/Downloads/dailyAttendence/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/_ViewStart.cshtml]
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Options/Downloads/dailyAttendence/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_Layout.cshtml]
+[C:/Users/Options/Downloads/Compressed/HR_GraduationProject-Migration_UpdateDb/HRSystem/HRPresentationLayer/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dhgsq5rb42

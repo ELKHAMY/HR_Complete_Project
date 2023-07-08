@@ -17,9 +17,12 @@ namespace HRPresentationLayer
 
             builder.Services.AddDbContext<HRAppDbContext>(o =>
             o.UseSqlServer(builder.Configuration.GetConnectionString("connection")));
-          
-            builder.Services.AddScoped<IAttendanceRepository, AttendanceRepository>();
-            builder.Services.AddControllersWithViews();
+
+            builder.Services.AddScoped<IDepartmentrep, Departmentrep>();
+
+            builder.Services.AddScoped<IEmployeerep, Employeerep>();
+            builder.Services.AddScoped<IGenral, Genral>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Options\\Downloads\\dailyAttendence\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Options\\Downloads\\Compressed\\HR_GraduationProject-Migration_UpdateDb\\HRSystem\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Options\\Downloads\\dailyAttendence\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj": {
+    "C:\\Users\\Options\\Downloads\\Compressed\\HR_GraduationProject-Migration_UpdateDb\\HRSystem\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Options\\Downloads\\dailyAttendence\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Options\\Downloads\\Compressed\\HR_GraduationProject-Migration_UpdateDb\\HRSystem\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Options\\Downloads\\dailyAttendence\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Options\\Downloads\\Compressed\\HR_GraduationProject-Migration_UpdateDb\\HRSystem\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Options\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Options\\Downloads\\dailyAttendence\\HR_GraduationProject\\HRSystem\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Options\\Downloads\\Compressed\\HR_GraduationProject-Migration_UpdateDb\\HRSystem\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Options\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,7 +42,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.8, )"
+              "version": "[7.0.7, )"
             }
           },
           "imports": [
