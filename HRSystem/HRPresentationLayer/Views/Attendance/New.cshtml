@@ -8,7 +8,12 @@
 <h1 dir="rtl">إضافة حضور موظف جديد</h1>
 <form method="post" asp-action="Save" dir="rtl">
   
-    
+    @if (ViewBag.Errors != null)
+    {
+        <div class="error">
+            @Html.ValidationSummary(false)
+        </div>
+    }
 
     <div>
         <label asp-for="EmployeeId">الموظف </label>

@@ -61,21 +61,10 @@
                     <td>@(attend.Departure?.Hour.ToString("00") + ":" + attend.Departure?.Minute.ToString("00"))</td>
                     <td>@attend.Attend?.ToString("yyyy-MM-dd")</td>
 
-                    @*      <td>
-            <a asp-action="Edit" asp-controller="Attendance"
-            asp-route-id="@attend.Id" class="btn btn-primary">تعديل</a>
-            </td>
-
-            <td>
-            <form asp-action="Delete" asp-controller="Attendance" method="post">
-            <input type="hidden" name="id" value="@attend.Id" />
-            <button type="submit" class="btn btn-danger">حذف</button>
-
-            </form>
-            </td>*@
+              
                     <td>
                         <div class="d-flex">
-                            <form asp-action="Delete" asp-controller="Attendance" method="post" onsubmit="return confirm('Are you sure you want to delete this employee data?')">
+                            <form asp-action="Delete" asp-controller="Attendance" method="post" onsubmit="return confirm('هل تريد حذف بيانات الموظف؟')">
                                 <input type="hidden" name="id" value="@attend.Id" />
                                 <button type="submit" class="btn btn-danger">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-trash3" viewBox="0 0 16 16">

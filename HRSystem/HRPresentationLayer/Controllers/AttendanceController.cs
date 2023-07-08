@@ -35,18 +35,17 @@ namespace HRPresentationLayer.Controllers
         [HttpPost]
         public IActionResult Save(Attendance attendance)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-
                 attendenceRepo.Insert(attendance);
                 attendenceRepo.Save();
                 return RedirectToAction("Index");
             }
             else
             {
-                List<EmployeePersonalData> employees = context.EmployeePersonalData.ToList();
-                ViewBag.EmpList = employees;
-
+                attendance = new Attendance();
+                ViewBag.Errors = ModelState.MaxAllowedErrors;
+                ViewBag.EmpList = context.EmployeePersonalData.ToList();
                 return View("New", attendance);
             }
         }
@@ -66,7 +65,7 @@ namespace HRPresentationLayer.Controllers
                 ModelState.AddModelError("EmployeeId", "EmployeeId is required");
             }
 
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 attendenceRepo.Update(attendance);
                 attendenceRepo.Save();
