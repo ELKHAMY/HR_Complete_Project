@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class creat : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -31,7 +31,8 @@ namespace Infrastructure.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Isdeleted = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -49,6 +50,20 @@ namespace Infrastructure.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Group", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Hours",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    AddHours = table.Column<int>(type: "int", nullable: true),
+                    RemoveHours = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Hours", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -113,9 +128,12 @@ namespace Infrastructure.Migrations
                     National = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Birthday = table.Column<DateTime>(type: "datetime2", nullable: true),
                     NationalId = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DepartmentId = table.Column<int>(type: "int", nullable: false),
+                    DepartmentId = table.Column<int>(type: "int", nullable: true),
                     WorkDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    Salary = table.Column<decimal>(type: "decimal(18,4)", nullable: false)
+                    salary = table.Column<decimal>(type: "decimal(18,4)", nullable: true),
+                    AttandanceDate = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    OutDate = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    Isdeleted = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -124,8 +142,7 @@ namespace Infrastructure.Migrations
                         name: "FK_EmployeePersonalData_Department_DepartmentId",
                         column: x => x.DepartmentId,
                         principalTable: "Department",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -193,8 +210,7 @@ namespace Infrastructure.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Attend = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    In_Time = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    Out_Time = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    Departure = table.Column<DateTime>(type: "datetime2", nullable: true),
                     EmployeeId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -205,48 +221,6 @@ namespace Infrastructure.Migrations
                         column: x => x.EmployeeId,
                         principalTable: "EmployeePersonalData",
                         principalColumn: "Id");
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Bonus_Hours",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Hours = table.Column<int>(type: "int", nullable: true),
-                    Date = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    EmployeeId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Bonus_Hours", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Bonus_Hours_EmployeePersonalData_EmployeeId",
-                        column: x => x.EmployeeId,
-                        principalTable: "EmployeePersonalData",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Minus_Hours",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Hours = table.Column<int>(type: "int", nullable: false),
-                    Date = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    EmployeeId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Minus_Hours", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Minus_Hours_EmployeePersonalData_EmployeeId",
-                        column: x => x.EmployeeId,
-                        principalTable: "EmployeePersonalData",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -384,19 +358,9 @@ namespace Infrastructure.Migrations
                 column: "EmployeeId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Bonus_Hours_EmployeeId",
-                table: "Bonus_Hours",
-                column: "EmployeeId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_EmployeePersonalData_DepartmentId",
                 table: "EmployeePersonalData",
                 column: "DepartmentId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Minus_Hours_EmployeeId",
-                table: "Minus_Hours",
-                column: "EmployeeId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Permission_GroupId",
@@ -426,10 +390,7 @@ namespace Infrastructure.Migrations
                 name: "Attendance");
 
             migrationBuilder.DropTable(
-                name: "Bonus_Hours");
-
-            migrationBuilder.DropTable(
-                name: "Minus_Hours");
+                name: "Hours");
 
             migrationBuilder.DropTable(
                 name: "OfficialVacations");

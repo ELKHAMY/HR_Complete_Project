@@ -18,7 +18,7 @@ namespace HRPresentationLayer.Controllers
 
         public IActionResult Index()
         {
-            List<EmployeePersonalData> employeeAttendence = attendenceRepo.GetAll().ToList();
+            List<Attendance> employeeAttendence = attendenceRepo.GetAll().ToList();
 
             return View(employeeAttendence);
         }
@@ -84,43 +84,79 @@ namespace HRPresentationLayer.Controllers
             attendenceRepo.Save();
             return RedirectToAction("Index");
         }
-
-        public IActionResult Search(string search)
+        public IActionResult Search(string search, DateTime? fromDate, DateTime? toDate)
         {
-            if (string.IsNullOrEmpty(search))
+            if (string.IsNullOrEmpty(search) && fromDate == null && toDate == null)
             {
-                ModelState.AddModelError("search", "These fields are required.");
+                ModelState.AddModelError("search", "At least one field is required.");
                 return View("Index", attendenceRepo.GetAll());
             }
 
-            var employeeAttendence = attendenceRepo.GetAll()
-                        .Where(e => e.Name.Contains(search) || e.Department.Name
-                        .Contains(search)).ToList();
+            var employeeAttendence = attendenceRepo.GetAll();
 
-            if (employeeAttendence.Count == 0)
+            if (!string.IsNullOrEmpty(search))
             {
-                ViewBag.Message = "Please enter a valid employee name.";
+                employeeAttendence = employeeAttendence.Where(e => e.EmployeePersonalData.Name.Contains(search)
+                    || e.EmployeePersonalData.Department.Name.Contains(search));
+            }
+
+            if (fromDate != null && toDate != null)
+            {
+                if (fromDate > toDate)
+                {
+                    ViewBag.Message = "Please enter a valid date range.";
+                    return View("Index", new List<EmployeePersonalData>());
+                }
+                employeeAttendence = employeeAttendence.Where(e => e.EmployeePersonalData.Attendance.Any(a => a.Attend >= fromDate
+                    && a.Attend <= toDate));
+                ViewBag.fromDate = fromDate;
+                ViewBag.toDate = toDate;
+            }
+
+            if (!employeeAttendence.Any())
+            {
+                ViewBag.Message = "No results found. Please try again with different search criteria.";
             }
 
             return View("Index", employeeAttendence);
         }
 
-        public IActionResult Search2(DateTime? fromDate, DateTime? toDate)
-        {
-            if (fromDate > toDate)
-            {
-                ViewBag.Message = "Please enter a valid date.";
-                return View("Index", new List<EmployeePersonalData>());
-            }
+        //public IActionResult Search(string search)
+        //{
+        //    if (string.IsNullOrEmpty(search))
+        //    {
+        //        ModelState.AddModelError("search", "These fields are required.");
+        //        return View("Index", attendenceRepo.GetAll());
+        //    }
 
-            ViewBag.fromDate = fromDate;
-            ViewBag.toDate = toDate;
+        //    var employeeAttendence = attendenceRepo.GetAll()
+        //                .Where(e => e.EmployeePersonalData.Name.Contains(search) || e.EmployeePersonalData.Department.Name
+        //                .Contains(search)).ToList();
 
-            var employeeAttendence = attendenceRepo.GetAll()
-                .Where(e => e.Attendance.Any(a => a.Attend >= fromDate
-                && a.Attend <= toDate)).ToList();
+        //    if (employeeAttendence.Count == 0)
+        //    {
+        //        ViewBag.Message = "Please enter a valid employee name.";
+        //    }
 
-            return View("Index", employeeAttendence);
-        }
+        //    return View("Index", employeeAttendence);
+        //}
+
+        //public IActionResult Search2(DateTime? fromDate, DateTime? toDate)
+        //{
+        //    if (fromDate > toDate)
+        //    {
+        //        ViewBag.Message = "Please enter a valid date.";
+        //        return View("Index", new List<EmployeePersonalData>());
+        //    }
+
+        //    ViewBag.fromDate = fromDate;
+        //    ViewBag.toDate = toDate;
+
+        //    var employeeAttendence = attendenceRepo.GetAll()
+        //        .Where(e => e.EmployeePersonalData.Attendance.Any(a => a.Attend >= fromDate
+        //        && a.Attend <= toDate)).ToList();
+
+        //    return View("Index", employeeAttendence);
+        //}
     }
 }

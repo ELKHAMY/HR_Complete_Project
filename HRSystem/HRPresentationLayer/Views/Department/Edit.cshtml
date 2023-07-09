@@ -1,0 +1,23 @@
+﻿@model Department
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>تعديل القسم</h1>
+
+<form method="post">
+
+    <div>
+
+        <label asp-for="Name"></label>
+        <input class="form-control" asp-for="Name" />
+
+
+
+    </div>
+
+    <div>
+        <input type="submit" value="حفظ" class="btn btn-primary" />
+    </div>
+</form>
+

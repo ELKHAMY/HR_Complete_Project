@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Options\\Downloads\\dailyAttendence\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Options\\Downloads\\dailyAttendence\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj": {
+    "D:\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Options\\Downloads\\dailyAttendence\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Options\\Downloads\\dailyAttendence\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Options\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Options\\Downloads\\dailyAttendence\\HR_GraduationProject\\HRSystem\\Domain\\obj\\",
+        "projectPath": "D:\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\jmalm\\.nuget\\packages\\",
+        "outputPath": "D:\\HR_GraduationProject\\HRSystem\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Options\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jmalm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,7 +42,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.8, )"
+              "version": "[7.0.7, )"
             }
           },
           "imports": [
@@ -61,21 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Options\\Downloads\\dailyAttendence\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Options\\Downloads\\dailyAttendence\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Options\\Downloads\\dailyAttendence\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Options\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Options\\Downloads\\dailyAttendence\\HR_GraduationProject\\HRSystem\\Infrastructure\\obj\\",
+        "projectPath": "D:\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\jmalm\\.nuget\\packages\\",
+        "outputPath": "D:\\HR_GraduationProject\\HRSystem\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Options\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jmalm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +89,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Options\\Downloads\\dailyAttendence\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Options\\Downloads\\dailyAttendence\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj"
+              "D:\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj"
               }
             }
           }
@@ -109,17 +109,17 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.8, )"
+              "version": "[7.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.8, )"
+              "version": "[7.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.8, )"
+              "version": "[7.0.7, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -142,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
