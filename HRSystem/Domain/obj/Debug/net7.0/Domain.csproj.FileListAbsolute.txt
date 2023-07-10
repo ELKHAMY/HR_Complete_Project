@@ -34,15 +34,27 @@ C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\
 C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\refint\Domain.dll
 C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.pdb
 C:\Users\hamed\OneDrive\Desktop\New folder\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\ref\Domain.dll
-C:\Users\Options\Downloads\dailyAttendence\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
-C:\Users\Options\Downloads\dailyAttendence\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Options\Downloads\dailyAttendence\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
-C:\Users\Options\Downloads\dailyAttendence\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
-C:\Users\Options\Downloads\dailyAttendence\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
-C:\Users\Options\Downloads\dailyAttendence\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.dll
-C:\Users\Options\Downloads\dailyAttendence\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\refint\Domain.dll
-C:\Users\Options\Downloads\dailyAttendence\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.pdb
-C:\Users\Options\Downloads\dailyAttendence\HR_GraduationProject\HRSystem\Domain\bin\Debug\net7.0\Domain.deps.json
-C:\Users\Options\Downloads\dailyAttendence\HR_GraduationProject\HRSystem\Domain\bin\Debug\net7.0\Domain.dll
-C:\Users\Options\Downloads\dailyAttendence\HR_GraduationProject\HRSystem\Domain\bin\Debug\net7.0\Domain.pdb
-C:\Users\Options\Downloads\dailyAttendence\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\ref\Domain.dll
+E:\Copied GP Project\HRSystem\Domain\bin\Debug\net7.0\Domain.deps.json
+E:\Copied GP Project\HRSystem\Domain\bin\Debug\net7.0\Domain.dll
+E:\Copied GP Project\HRSystem\Domain\bin\Debug\net7.0\Domain.pdb
+E:\Copied GP Project\HRSystem\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+E:\Copied GP Project\HRSystem\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Copied GP Project\HRSystem\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+E:\Copied GP Project\HRSystem\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+E:\Copied GP Project\HRSystem\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+E:\Copied GP Project\HRSystem\Domain\obj\Debug\net7.0\Domain.dll
+E:\Copied GP Project\HRSystem\Domain\obj\Debug\net7.0\refint\Domain.dll
+E:\Copied GP Project\HRSystem\Domain\obj\Debug\net7.0\Domain.pdb
+E:\Copied GP Project\HRSystem\Domain\obj\Debug\net7.0\ref\Domain.dll
+E:\Copied GP Project - Copy\HRSystem\Domain\bin\Debug\net7.0\Domain.deps.json
+E:\Copied GP Project - Copy\HRSystem\Domain\bin\Debug\net7.0\Domain.dll
+E:\Copied GP Project - Copy\HRSystem\Domain\bin\Debug\net7.0\Domain.pdb
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\Domain.dll
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\refint\Domain.dll
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\Domain.pdb
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\ref\Domain.dll

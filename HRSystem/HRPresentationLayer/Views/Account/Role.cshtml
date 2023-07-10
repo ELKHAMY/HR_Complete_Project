@@ -1,0 +1,40 @@
+﻿@model RoleViewModel
+
+@{
+    ViewData["Title"] = "Role";
+}
+<button type="button" class="btn btn-info mt-2" onclick="Reset()" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    أضف تحكم جديد
+</button>
+<table class="table table-striped mb-0 rounded-3" dir="rtl">
+    <thead style="background-color: #002d72;">
+        <tr>
+            <th scope="col"> إسم الصلاحيه</th>
+            <th scope="col">التعاملات</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Roles)
+        {
+
+            <tr>
+                <td>@item.Name</td>
+                <td>
+                    <input type="submit" value="تعديل" asp-controller="Account" asp-action="Role" onclick="Edit('@item.Id','@item.Name')" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                    <a asp-action="Index" asp-controller="Permissions" asp-route-RoleId="@item.Id" class="btn btn-success" >الصلاحيات</a>
+                </td>
+
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+<partial name="_PartialRole" />
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+        <script src="~/module/Roles.js"></script>
+}
