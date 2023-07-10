@@ -20,7 +20,6 @@ namespace Domain.Models
         public decimal Salary { get; set; }
         public Department Department { get; set; }
         public ICollection<Attendance> Attendance { get; set; }
-        public ICollection<EmployeeWorkData> EmployeeWorkData { get; set; }
 
 
 
