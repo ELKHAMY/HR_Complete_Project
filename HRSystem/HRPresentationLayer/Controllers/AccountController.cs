@@ -227,7 +227,7 @@ namespace HRPresentationLayer.Controllers
                     var result =await _signInManager.PasswordSignInAsync(usermodel, model.Password, model.RememberMe, false);
                     if (result.Succeeded)
                     {
-                        return RedirectToAction("Index", "Account");
+                        return RedirectToAction("Index", "Home");
                     }
                     else
                     {

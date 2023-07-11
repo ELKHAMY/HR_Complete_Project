@@ -1,4 +1,5 @@
-﻿using Infrastructure.ViewModels;
+﻿using Domain.Models;
+using Infrastructure.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,11 +10,13 @@ namespace Infrastructure.IRepsository
 {
     public interface IOfficialVacationsRepository
     {
-        OfficialVacationsViewModel add(OfficialVacationsViewModel model);
-        bool update(OfficialVacationsViewModel model);
-        bool delete(int id);
-        OfficialVacationsViewModel GetByID(int id);
-        IEnumerable<OfficialVacationsViewModel> GetALL();
+        List<OfficialVacations> GetAll();
+
+        OfficialVacations GetById(int id);
+        void Create(OfficialVacations vac);
+        void Save();
+        void Delete(int id);
+        public void update(int id, OfficialVacations v);
 
     }
 }

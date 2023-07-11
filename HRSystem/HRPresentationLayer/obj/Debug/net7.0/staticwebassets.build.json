@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XBVmfymO2R17GOZJuWU4clGaQhz9WnC+fKt1QjyTyHU=",
+  "Hash": "YhHkIrCbRqgryv3tmnLrERf5OwP5fMSrrnAiYzwFRcE=",
   "Source": "HRPresentationLayer",
   "BasePath": "_content/HRPresentationLayer",
   "Mode": "Default",
@@ -2582,6 +2582,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\home-decor-3.jpg"
+    },
+    {
+      "Identity": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\hr.jpg",
+      "SourceId": "HRPresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\",
+      "BasePath": "_content/HRPresentationLayer",
+      "RelativePath": "images/hr.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hr.jpg"
     },
     {
       "Identity": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\icons\\flags\\AU.png",

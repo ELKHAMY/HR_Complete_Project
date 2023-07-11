@@ -10,132 +10,54 @@ using static Infrastructure.IRepsository.OfficialVacationsRepository;
 
 namespace Infrastructure.IRepsository
 {
-    public class OfficialVacationsRepository : IOfficialVacationsRepository
-    {
-        HRAppDbContext db;
+  
+     public class OfficialVacationsRepository : IOfficialVacationsRepository
+     {
+            HRAppDbContext context;
+
+            public OfficialVacationsRepository(HRAppDbContext context)
+            {
+                this.context = context;
+            }
+
+            public void Create(OfficialVacations vac)
+            {
+
+                context.Add(vac);
+            }
+
+            public List<OfficialVacations> GetAll()
+            {
+                return context.OfficialVacations.ToList();
+            }
+
+            public OfficialVacations GetById(int id)
+            {
+                return context.OfficialVacations.FirstOrDefault(e => e.Id == id);
+
+            }
+
+            public void Save()
+            {
+                context.SaveChanges();
+            }
+            public void Delete(int id)
+            {
+                OfficialVacations delvac = GetById(id);
+                context.OfficialVacations.Remove(delvac);
+            }
+            public void update(int id, OfficialVacations v)
+            {
+                OfficialVacations vo = GetById(id);
+                vo.Name = v.Name;
+
+                vo.Date = v.Date;
 
 
-        public OfficialVacationsRepository(HRAppDbContext _db)
-        {
 
-            this.db = _db;
+            }
+
+
 
         }
-        public OfficialVacationsViewModel add(OfficialVacationsViewModel model)
-            {
-                {
-                    try
-                    {
-                        OfficialVacations obj = new OfficialVacations();
-                        obj.Id = model.id;
-                        obj.Day = model.day;
-                        obj.Date = model.date;
-
-                        var result = db.OfficialVacations.Add(obj);
-                        db.SaveChanges();
-                        return model;
-                    }
-                    catch
-                    {
-                        throw;
-                    }
-                }
-            }
-
-            public bool delete(int id)
-            {
-                try
-                {
-                    if (id > 0)
-                    {
-                        OfficialVacations obj = db.OfficialVacations.FirstOrDefault(x => x.Id == id);
-                        if (obj != null)
-                        {
-                            db.OfficialVacations.Remove(obj);
-                            db.SaveChanges();
-                            return true;
-                        }
-                        else
-                            return false;
-                    }
-                    else
-                        return false;
-                }
-                catch (Exception)
-                {
-                    throw;
-                }
-            }
-
-            public IEnumerable<OfficialVacationsViewModel> GetALL()
-            {
-
-                try
-                {
-                    List<OfficialVacationsViewModel> officials = new List<OfficialVacationsViewModel>();
-                    foreach (var item in db.OfficialVacations)
-                    {
-                        OfficialVacationsViewModel obj = new OfficialVacationsViewModel();
-                        obj.id = item.Id;
-                        obj.day = item.Day;
-                        obj.date = item.Date;
-
-
-                        officials.Add(obj);
-                    }
-                    return officials;
-                }
-                catch
-                {
-                    throw;
-                }
-            }
-
-            public OfficialVacationsViewModel GetByID(int id)
-            {
-                try
-                {
-
-
-                    OfficialVacations official = db.OfficialVacations.FirstOrDefault(x => x.Id == id);
-                    OfficialVacationsViewModel obj = new OfficialVacationsViewModel();
-                    obj.id = official.Id;
-                    obj.day = official.Day;
-                    obj.date = official.Date;
-
-                    return obj;
-
-                }
-                catch
-                {
-                    throw;
-                }
-            }
-
-            public bool update(OfficialVacationsViewModel model)
-            {
-                try
-                {
-                    OfficialVacations obj = db.OfficialVacations.FirstOrDefault(x => x.Id == model.id);
-                    if (obj != null)
-                    {
-                        obj.Id = model.id;
-                        obj.Day = model.day;
-                        obj.Date = model.date;
-
-                        db.SaveChanges();
-                        return true;
-                    }
-                    else
-                        return false;
-                }
-                catch (Exception)
-                {
-                    throw;
-                }
-            }
-
-
-        
-    }
 }

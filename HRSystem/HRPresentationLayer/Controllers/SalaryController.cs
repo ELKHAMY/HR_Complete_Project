@@ -126,7 +126,7 @@ namespace HRPresentationLayer.Controllers
         private int WorkDays(int year, int month)
         {
 
-            var officialVacations = official.GetALL().Where(x => x.date.Value.Year == year && x.date.Value.Month == month);
+            var officialVacations = official.GetAll().Where(x => x.Date.Value.Year == year && x.Date.Value.Month == month);
 
             int days = Enumerable.Range(1, DateTime.DaysInMonth(year, month))
                      .Select(day => new DateTime(year, month, day))

@@ -601,6 +601,10 @@
       "PackagePath": "staticwebassets\\images\\home-decor-3.jpg"
     },
     {
+      "Id": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\hr.jpg",
+      "PackagePath": "staticwebassets\\images\\hr.jpg"
+    },
+    {
       "Id": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\wwwroot\\images\\icons\\flags\\AU.png",
       "PackagePath": "staticwebassets\\images\\icons\\flags\\AU.png"
     },

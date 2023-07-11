@@ -108,6 +108,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/TestingFinal/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/OfficialVacations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNpYWxWYWNhdGlvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/TestingFinal/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/OfficialVacations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNpYWxWYWNhdGlvbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/TestingFinal/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/OfficialVacations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNpYWxWYWNhdGlvbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/TestingFinal/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Permissions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzc2lvbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -118,6 +130,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/TestingFinal/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/TestingFinal/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_LayoutNoOptions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXROb09wdGlvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/TestingFinal/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialAsideNav.cshtml]

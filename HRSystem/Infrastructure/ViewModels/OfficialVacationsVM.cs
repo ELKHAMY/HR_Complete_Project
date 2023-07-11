@@ -11,7 +11,8 @@ namespace Infrastructure.ViewModels
     public class OfficialVacationsVM
     {
 
-      
+            [Key]
+            public int id { get; set; }
             [Required(ErrorMessage = "الرجاء إدخال الاسم")]
             public string Name { get; set; }
 
