@@ -1,0 +1,40 @@
+﻿@model Domain.Models.OfficialVacations
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container bg-light m-5 " dir="rtl">
+
+
+<form method="post" asp-action="Edit">
+    <div>
+        <label asp-for="Name">الاسم</label>
+        <input asp-for="Name" type="text" class="form-control" id="Name" />
+        <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Date" class="control-label"> التاريخ</label>
+        <input asp-for="Date" class="form-control" />
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+    <input type="submit" value="تعديل" class="btn btn-success mt-2" />
+
+</form>
+<div>
+
+
+    <a asp-action="Create">الرجوع الي القائمة</a>
+</div>
+
+</div>
+@section Scripts{
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+}
+
+
