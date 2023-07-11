@@ -35,7 +35,7 @@ namespace HRPresentationLayer.Controllers
         [HttpPost]
         public IActionResult Save(Attendance attendance)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
 
                 attendenceRepo.Insert(attendance);
@@ -66,7 +66,7 @@ namespace HRPresentationLayer.Controllers
                 ModelState.AddModelError("EmployeeId", "EmployeeId is required");
             }
 
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 attendenceRepo.Update(attendance);
                 attendenceRepo.Save();

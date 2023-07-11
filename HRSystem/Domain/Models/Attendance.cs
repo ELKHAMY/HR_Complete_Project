@@ -12,7 +12,7 @@ namespace Domain.Models
         [ForeignKey("EmployeePersonalData")]
         public int? EmployeeId { get; set; }
 
-        public EmployeePersonalData EmployeePersonalData { get; set; }
+        public EmployeePersonalData? EmployeePersonalData { get; set; }
 
    
     }

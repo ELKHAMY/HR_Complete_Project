@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(HRAppDbContext))]
-    [Migration("20230701233644_init")]
-    partial class init
+    [Migration("20230711124601_hrSystem")]
+    partial class hrSystem
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -46,10 +46,6 @@ namespace Infrastructure.Migrations
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
-
-                    b.Property<int?>("GroupId")
-                        .IsRequired()
-                        .HasColumnType("int");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -89,8 +85,6 @@ namespace Infrastructure.Migrations
                         .HasColumnType("nvarchar(256)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("GroupId");
 
                     b.HasIndex("NormalizedEmail")
                         .HasDatabaseName("EmailIndex");
@@ -207,23 +201,6 @@ namespace Infrastructure.Migrations
                     b.ToTable("EmployeePersonalData");
                 });
 
-            modelBuilder.Entity("Domain.Models.Group", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Group");
-                });
-
             modelBuilder.Entity("Domain.Models.Hours", b =>
                 {
                     b.Property<int>("Id")
@@ -261,41 +238,6 @@ namespace Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("OfficialVacations");
-                });
-
-            modelBuilder.Entity("Domain.Models.Permissions", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<bool?>("CanAdd")
-                        .HasColumnType("bit");
-
-                    b.Property<bool?>("CanDelete")
-                        .HasColumnType("bit");
-
-                    b.Property<bool?>("CanUpdate")
-                        .HasColumnType("bit");
-
-                    b.Property<bool?>("CanView")
-                        .HasColumnType("bit");
-
-                    b.Property<int?>("GroupId")
-                        .IsRequired()
-                        .HasColumnType("int");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("GroupId");
-
-                    b.ToTable("Permission");
                 });
 
             modelBuilder.Entity("Domain.Models.WeeklyHoliday", b =>
@@ -451,17 +393,6 @@ namespace Infrastructure.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("Domain.Models.ApplicationUser", b =>
-                {
-                    b.HasOne("Domain.Models.Group", "Group")
-                        .WithMany("Users")
-                        .HasForeignKey("GroupId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Group");
-                });
-
             modelBuilder.Entity("Domain.Models.Attendance", b =>
                 {
                     b.HasOne("Domain.Models.EmployeePersonalData", "EmployeePersonalData")
@@ -478,17 +409,6 @@ namespace Infrastructure.Migrations
                         .HasForeignKey("DepartmentId");
 
                     b.Navigation("Department");
-                });
-
-            modelBuilder.Entity("Domain.Models.Permissions", b =>
-                {
-                    b.HasOne("Domain.Models.Group", "Group")
-                        .WithMany("Permissions")
-                        .HasForeignKey("GroupId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Group");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -550,13 +470,6 @@ namespace Infrastructure.Migrations
             modelBuilder.Entity("Domain.Models.EmployeePersonalData", b =>
                 {
                     b.Navigation("Attendance");
-                });
-
-            modelBuilder.Entity("Domain.Models.Group", b =>
-                {
-                    b.Navigation("Permissions");
-
-                    b.Navigation("Users");
                 });
 #pragma warning restore 612, 618
         }

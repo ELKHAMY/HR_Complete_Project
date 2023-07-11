@@ -58,3 +58,15 @@ D:\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.dll
 D:\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\refint\Domain.dll
 D:\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.pdb
 D:\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\ref\Domain.dll
+E:\Copied GP Project - Copy\HRSystem\Domain\bin\Debug\net7.0\Domain.deps.json
+E:\Copied GP Project - Copy\HRSystem\Domain\bin\Debug\net7.0\Domain.dll
+E:\Copied GP Project - Copy\HRSystem\Domain\bin\Debug\net7.0\Domain.pdb
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\Domain.dll
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\refint\Domain.dll
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\Domain.pdb
+E:\Copied GP Project - Copy\HRSystem\Domain\obj\Debug\net7.0\ref\Domain.dll
