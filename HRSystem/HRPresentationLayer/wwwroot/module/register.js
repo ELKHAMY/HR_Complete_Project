@@ -22,6 +22,7 @@ Reset = () => {
     document.getElementById("uName").value = "";
     document.getElementById("email").value = "";
     document.getElementById("roleName").value = "";
+    document.getElementById("idUser").value = "";
     $('#fgpassword').show();
     $('#cfgpassword').show();
     document.getElementById("fgpassword").value = "";
