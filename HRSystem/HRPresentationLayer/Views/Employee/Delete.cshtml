@@ -1,0 +1,89 @@
+﻿
+@model Domain.Models.EmployeePersonalData
+
+@{
+    ViewData["Title"] = "Delete";
+    SelectList deptitem = new SelectList(ViewBag.deptlist, "Id", "Name");
+
+}
+
+
+<div>
+    <h3>هل متأكد من الحذف</h3>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Delete">
+
+            <h3 style="   border: 2px solid black;
+                border-radius: 5px;">
+                البيانات الشخصية
+            </h3>
+            <div class="form-group">
+                <label class="control-label">الاسم</label>
+                <input asp-for="Name" class="form-control" disabled />
+            </div>
+            <div class="form-group">
+                <label class="control-label">العنوان</label>
+                <input asp-for="Address" class="form-control" disabled />
+            </div>
+            <div class="form-group">
+                <label class="control-label">رقم الهاتف</label>
+                <input asp-for="Phone" class="form-control" disabled />
+            </div>
+            <div class="form-group">
+                <label class="control-label">الجنس</label>
+                <input asp-for="Gender" class="form-control" disabled />
+            </div>
+            <div class="form-group">
+                <label class="control-label">الجنسية</label>
+                <input asp-for="National" class="form-control" disabled />
+            </div>
+            <div class="form-group">
+                <label class="control-label">تاريخ الميلاد</label>
+                <input asp-for="Birthday" class="form-control" disabled />
+            </div>
+            <div class="form-group">
+                <label class="control-label">الرقم القومي</label>
+                <input asp-for="NationalId" class="form-control" disabled />
+            </div>
+            <div class="form-group">
+                <label>القسم</label>
+
+                <select class="form-control" asp-for="DepartmentId" asp-items="deptitem" disabled>
+                    <option value="0">--Select Department--</option>
+                </select>
+            </div>
+            <br />
+            <h3 style="   border: 2px solid black;
+                border-radius: 5px;">
+                بيانات العمل
+            </h3>
+            <br />
+            <div class="form-group">
+                <label class="control-label">تاريخ التعاقد</label>
+                <input asp-for="WorkDate" class="form-control" disabled />
+            </div>
+            <div class="form-group">
+                <label class="control-label">الراتب</label>
+                <input asp-for="salary" class="form-control" disabled />
+            </div>
+            <div class="form-group">
+                <label class="control-label">موعد الحضور</label>
+                <input asp-for="AttandanceDate" class="form-control" disabled />
+            </div>
+            <div class="form-group">
+                <label class="control-label">موعد الانصراف</label>
+                <input asp-for="OutDate" class="form-control" disabled />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="حذف" class="btn btn-danger" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">الرجوع للقائمة</a>
+</div>

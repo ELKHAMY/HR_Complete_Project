@@ -1,0 +1,104 @@
+﻿@model IEnumerable<Infrastructure.ViewModels.SalaryReportViewModel>
+@{
+    ViewData["Title"] = "Salaryemployee";
+}
+
+<h2 dir="rtl">رواتب الموظفين</h2>
+
+<div dir="rtl" class="container">
+
+    <div dir="rtl" style="margin-top:45px">
+        <form action="salaryemployee">
+            <div class="form-group mr-2" style="margin-bottom:10px">
+                <input type="text" name="search" placeholder="البحث باسم الموظف" class="form-control" />
+            </div>
+            <div class="d-flex">
+                <div class="form-group mr-2">
+                    <label for="month">شهر:</label>
+                    <input type="text" name="month" id="month" class="form-control" />
+                </div>
+                <div class="form-group mr-2" style="margin-right:5px">
+                    <label for="year">سنة:</label>
+                    <input type="text" name="year" id="year" class="form-control" />
+                </div>
+                <div class="form-group" style="margin-right:5px">
+                    <button type="submit" class="btn btn-primary">بحث</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <style>
+        .form-control {
+            display: inline-block;
+            width: auto;
+            vertical-align: middle;
+            
+        }
+
+        label {
+            display: inline-block;
+            margin-bottom: 0;
+            vertical-align: middle;
+        }
+
+        .table {
+            margin-top : 16px;
+        }
+    </style>
+   
+
+    <table dir="rtl" class="table" >
+        <thead>
+            <tr>
+                <th scope="col" style="background-color:cadetblue;color:white">اسم الموظف</th>
+                <th scope="col" style="background-color:cadetblue;color:white">القسم</th>
+                <th scope="col" style="background-color:cadetblue;color:white">الراتب الاساسى</th>
+                <th scope="col" style="background-color:cadetblue;color:white">عدد ايام الحضور</th>
+                <th scope="col" style="background-color:cadetblue;color:white">عدد ايام الغياب</th>
+                <th scope="col" style="background-color:cadetblue;color:white">الاضافى بالساعات</th>
+                <th scope="col" style="background-color:cadetblue;color:white">الخصم بالساعات</th>
+                <th scope="col" style="background-color:cadetblue;color:white"> اجمالى الاضافى </th>
+                <th scope="col" style="background-color:cadetblue;color:white">اجمالى الخصم  </th>
+                <th scope="col" style="background-color:cadetblue;color:white">الصافى</th>
+                <th scope="col" style="background-color:cadetblue;color:white">العمليات</th>
+
+            </tr>
+        </thead>
+        <tbody class="tbody">
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Employeename</td>
+                    <td>@item.DepartmentName</td>
+                    <td>@item.sallary</td>
+                    <td>@item.AttendedDay</td>
+                    <td>@item.DeparturedDay</td>
+                    <td>@item.OverTimeHours</td>
+                    <td>@item.HoursDiscount</td>
+                    <td>@item.totalExtra</td>
+                    <td>@item.totalDiscount</td>
+                    <td>@item.NetSallary</td>
+                    <td>
+                        <form method="get" action="@Url.Action("Edit", "Employee", new { id = item.employeeID })">
+                            <button type="submit" class="btn btn-primary">تعديل</button>
+                        </form>
+                        <form method="post" action="@Url.Action("Print", "Employee", new { id = item.employeeID })">
+                            <button type="submit" class="btn btn-success">طباعة</button>
+                        </form>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+    @if (ViewBag.massage != null)
+    {
+       <p>@ViewBag.massage</p> 
+    }    
+    @if (ViewBag.CorrectYear != null)
+    {
+       <p>@ViewBag.CorrectYear</p> 
+    }
+</div>

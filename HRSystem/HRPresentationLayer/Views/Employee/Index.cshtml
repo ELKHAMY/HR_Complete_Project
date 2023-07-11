@@ -1,0 +1,36 @@
+﻿@model List<EmployeePersonalData>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>الموظفين</h1>
+
+<a asp-controller="Employee" asp-action="Add" class="btn btn-success">اضافة موظف جديد</a>
+<table class="table table-border table-hover">
+
+    <tr>
+        <th>الرقم</th>
+        <th>اسم الموظف</th>
+        <th> العنوان  </th>
+        <th> الجنسية  </th>
+        <th> الراتب  </th>
+        <th> تعديل  </th>
+        <th> حذف  </th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Address</td>
+            <td>@item.National</td>
+            <td>@item.salary</td>
+
+            <td><a href="/Employee/Edit/@item.Id">تعديل</a></td>
+            <td><a href="/Employee/Delete/@item.Id">حذف</a></td>
+
+        </tr>
+    }
+</table>
+
