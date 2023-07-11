@@ -15,15 +15,13 @@ namespace HRPresentationLayer.Controllers
 
     public class AccountController : Controller
     {
-        HRAppDbContext _hRcontext;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
 
         #region CTOR
-        public AccountController(HRAppDbContext hRcontext,UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager)
+        public AccountController(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager)
         {
-            _hRcontext = hRcontext;
             _userManager = userManager;
             _roleManager = roleManager;
             _signInManager = signInManager;
