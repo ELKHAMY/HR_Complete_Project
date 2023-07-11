@@ -1,6 +1,7 @@
 using Domain.Models;
 using HRPresentationLayer.Permission;
 using Infrastructure.Data;
+using Infrastructure.IRepsository;
 using Infrastructure.SeedData;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -30,6 +31,7 @@ namespace HRPresentationLayer
             builder.Services.AddScoped<IAuthorizationHandler, PermissionAuthorizationHandler>();
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                .AddEntityFrameworkStores<HRAppDbContext>();
+            builder.Services.AddScoped<IAttendanceRepository, AttendanceRepository>();
             builder.Services.AddDbContext<HRAppDbContext>(o =>
             o.UseSqlServer(builder.Configuration.GetConnectionString("connection")));
 

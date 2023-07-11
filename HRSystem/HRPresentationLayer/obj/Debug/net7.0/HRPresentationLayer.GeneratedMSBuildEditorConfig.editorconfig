@@ -44,6 +44,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxfUGFydGlhbFJvbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Attendance/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Attendance/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Attendance/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxOZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Copied GP Project - Copy/HRSystem/HRPresentationLayer/Views/Employees/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
