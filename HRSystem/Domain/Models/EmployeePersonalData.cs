@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain.Models
 {
@@ -10,7 +9,7 @@ namespace Domain.Models
         public string Address { get; set; }
         //[RegularExpression("^(011|012|010)\\d{8}$", ErrorMessage = "يجب ان تبدأ الارقام ب 011 او 012 او 010")]
         public string Phone { get; set; }
-       
+
         //[RegularExpression("^(رجل|امراة)$" , ErrorMessage = "الرجاء ادخال رجل او امراة")]
         public string Gender { get; set; }
         public string National { get; set; }
@@ -26,7 +25,7 @@ namespace Domain.Models
 
 
         public DateTime? WorkDate { get; set; }
-       // [Column(TypeName = "decimal(18,4)")]
+        // [Column(TypeName = "decimal(18,4)")]
 
         //[RegularExpression("^[0-9]+$" , ErrorMessage = "ادخل ارقام فقط")]
         public decimal? salary { get; set; }

@@ -1,58 +1,47 @@
-﻿@model Infrastructure.ViewModels.RegisterViewModel
-
+﻿@model RegisterViewModel
 @{
     ViewData["Title"] = "Register";
 }
+<!-- Button trigger modal -->
 
-<h1>Register</h1>
+<button type="button" class="btn btn-info mt-2" onclick="Reset()" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    أضف مستخدم
+</button>
+<table class="table table-striped mb-0 rounded-3" dir = "rtl">
+        <thead style="background-color: #002d72;">
+            <tr>
+                <th scope="col">الاسم</th>
+                <th scope="col">البريد الالكتروني</th>
+                <th scope="col">إسم المستخدم</th>
+                <th scope="col">المجموعة</th>
+                <th scope="col">العمليات</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model.UserswithRole)
+        {
+            
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Email</td>
+                <td>@item.UserName</td>
+                <td>@item.roleName</td>
+                <td>
+                    <input type="submit" value="تعديل" asp-controller="Account" asp-action="Register" onclick="Edit('@item.Id','@item.Name','@item.Email','@item.roleName','@item.UserName','@item.Password')" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                
+                </td>
+                
+            </tr>
+        }
 
-<h4>RegisterViewModel</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Register">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="UserName" class="control-label"></label>
-                <input asp-for="UserName" class="form-control" />
-                <span asp-validation-for="UserName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Password" class="control-label"></label>
-                <input asp-for="Password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ConfirmPassword" class="control-label"></label>
-                <input asp-for="ConfirmPassword" class="form-control" />
-                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="ActiveUser" /> @Html.DisplayNameFor(model => model.ActiveUser)
-                </label>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+        </tbody>
+   </table>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
+<partial name="_PartialRegister" />
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="~/module/register.js"></script>
+
 }
