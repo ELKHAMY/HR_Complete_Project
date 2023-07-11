@@ -774,11 +774,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Copied GP Project - Copy\\HRSystem\\Domain\\Domain.csproj",
+      "projectUniqueName": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "E:\\Copied GP Project - Copy\\HRSystem\\Domain\\Domain.csproj",
+      "projectPath": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\hamed\\.nuget\\packages\\",
-      "outputPath": "E:\\Copied GP Project - Copy\\HRSystem\\Domain\\obj\\",
+      "outputPath": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -11552,11 +11552,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Copied GP Project - Copy\\HRSystem\\HRPresentationLayer\\HRPresentationLayer.csproj",
+      "projectUniqueName": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\HRPresentationLayer.csproj",
       "projectName": "HRPresentationLayer",
-      "projectPath": "E:\\Copied GP Project - Copy\\HRSystem\\HRPresentationLayer\\HRPresentationLayer.csproj",
+      "projectPath": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\HRPresentationLayer.csproj",
       "packagesPath": "C:\\Users\\hamed\\.nuget\\packages\\",
-      "outputPath": "E:\\Copied GP Project - Copy\\HRSystem\\HRPresentationLayer\\obj\\",
+      "outputPath": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -11579,8 +11579,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\Copied GP Project - Copy\\HRSystem\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "E:\\Copied GP Project - Copy\\HRSystem\\Infrastructure\\Infrastructure.csproj"
+            "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

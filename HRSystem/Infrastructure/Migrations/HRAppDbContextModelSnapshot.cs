@@ -189,7 +189,7 @@ namespace Infrastructure.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<decimal?>("salary")
-                        .HasColumnType("decimal(18,4)");
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 

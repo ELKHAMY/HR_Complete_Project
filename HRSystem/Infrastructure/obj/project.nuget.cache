@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y9zXSa5EZk3USDpEtXKgf2Dc+7hSTw5Z5+hjQ2fW26POziEksfFePYl63dPDWlwh6kz4DLV24U/oEntl9a1dmA==",
+  "dgSpecHash": "mDZ5+E3DnzqZCfT6OiRQagAani//uHZiFMQrw7ywtfd2hkqmIgFAyU3RGLl6hN+FpzgC5O43p1oypcdNE5IH/g==",
   "success": true,
-  "projectFilePath": "E:\\Copied GP Project - Copy\\HRSystem\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hamed\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\hamed\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

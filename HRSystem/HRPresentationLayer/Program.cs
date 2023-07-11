@@ -32,6 +32,14 @@ namespace HRPresentationLayer
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                .AddEntityFrameworkStores<HRAppDbContext>();
             builder.Services.AddScoped<IAttendanceRepository, AttendanceRepository>();
+            builder.Services.AddScoped<IDepartmentrep, Departmentrep>();
+
+            builder.Services.AddScoped<IEmployeePersonalDataRepository, EmployeePersonalDataRepository>();
+            builder.Services.AddScoped<IGenral, Genral>();
+            builder.Services.AddScoped<IOfficialVacationsRepository, OfficialVacationsRepository>();
+            builder.Services.AddScoped<IHoursRepository, HoursRepository>();
+
+
             builder.Services.AddDbContext<HRAppDbContext>(o =>
             o.UseSqlServer(builder.Configuration.GetConnectionString("connection")));
 

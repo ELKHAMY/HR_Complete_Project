@@ -100,3 +100,20 @@ E:\Copied GP Project - Copy\HRSystem\Infrastructure\bin\Debug\net7.0\Domain.pdb
 E:\Copied GP Project - Copy\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
 E:\Copied GP Project - Copy\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
 E:\Copied GP Project - Copy\HRSystem\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\bin\Debug\net7.0\Infrastructure.runtimeconfig.json
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\bin\Debug\net7.0\Domain.dll
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\bin\Debug\net7.0\Domain.pdb
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
+F:\TestingFinal\HR_GraduationProject\HRSystem\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
