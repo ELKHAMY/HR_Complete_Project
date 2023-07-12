@@ -1,12 +1,14 @@
 ﻿using Domain;
 using Domain.Constants;
 using Infrastructure.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
 namespace HRPresentationLayer.Controllers
 {
+
     public class PermissionsController : Controller
     {
         private readonly RoleManager<IdentityRole> _roleManager;
@@ -15,6 +17,8 @@ namespace HRPresentationLayer.Controllers
         {
             _roleManager = roleManager;
         }
+
+        [Authorize(Permissions.Account.View)]
         public async Task<IActionResult> Index(string roleId)
         {
             var role = await _roleManager.FindByIdAsync(roleId);
@@ -36,6 +40,7 @@ namespace HRPresentationLayer.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Permissions.Account.Edit)]
         public async Task<IActionResult> Update(PermissionViewModel model)
         {
             var role = await _roleManager.FindByIdAsync(model.RoleId);

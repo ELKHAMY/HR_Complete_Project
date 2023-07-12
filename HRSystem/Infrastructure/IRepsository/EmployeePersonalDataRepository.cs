@@ -68,7 +68,7 @@ namespace Infrastructure.IRepsository
             oldemp.NationalId=emp.NationalId;
             oldemp.DepartmentId=emp.DepartmentId;
             oldemp.WorkDate=emp.WorkDate;
-            oldemp.salary=emp.salary;
+            oldemp.salary=(decimal)emp.salary;
             oldemp.Attendance=emp.Attendance;
             oldemp.OutDate=emp.OutDate;
         }

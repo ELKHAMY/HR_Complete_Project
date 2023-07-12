@@ -1,6 +1,6 @@
 ﻿@model Domain.Models.OfficialVacations
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "الأجازات الرسمية / التفاصيل";
 }
 
 
@@ -8,8 +8,8 @@
 
     
     <div class="card bg-light mx-auto mt-5" style="width:400px">
-        <h4 class="text-center">التفاصيل</h4>
-        <div class="card-body">
+@*        <h4 class="text-center">التفاصيل</h4>
+*@        <div class="card-body">
             <h5 class="card-title">  الاسم : @Model.Name    </h5>
             <h5 class="card-text">    التاريخ : @Model.Date</h5>
             <a asp-area="" asp-controller="OfficialVacations" asp-action="Create" class="btn btn-primary">رجوع</a>

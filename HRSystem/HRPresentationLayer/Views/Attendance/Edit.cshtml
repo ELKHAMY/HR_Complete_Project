@@ -1,10 +1,10 @@
 ﻿@model Attendance
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "الحضور وإلانصراف / تعديل";
 }
 
-<h1 dir="rtl">تعديل حضور موظف جديد</h1>
-<form method="post" asp-action="Edit" dir="rtl">
+@*<h1 dir="rtl">تعديل حضور موظف جديد</h1>
+*@<form method="post" asp-action="Edit" dir="rtl">
 
 
     @*<input hidden asp-for="Id" />*@
@@ -12,24 +12,24 @@
 
     <div>
         <label>اسم الموظف</label>
-        <input class="form-control" value="@Model.EmployeePersonalData?.Name" readonly />
+        <input class="form-control border" value="@Model.EmployeePersonalData?.Name" readonly />
     </div>
 
 
     <div>
         <label asp-for="Attend"> وقت الحضور</label>
 
-        <input class="form-control" asp-for="Attend" />
+        <input class="form-control border" asp-for="Attend" />
         <span asp-validation-for="Attend" class="text-danger"></span>
     </div>
     <div>
         <label asp-for="Departure"> وقت الإنصراف</label>
-        <input class="form-control" asp-for="Departure" />
+        <input class="form-control border" asp-for="Departure" />
         <span asp-validation-for="Departure" class="text-danger">
 
         </span>
     </div>
-    <input type="submit" value="تعديل" class="btn btn-primary" />
+    <input type="submit" value="تعديل" class="btn btn-success mt-2" />
     <a asp-action="Index" class="btn btn-secondary">العودة إلى القائمة</a>
 </form>
 

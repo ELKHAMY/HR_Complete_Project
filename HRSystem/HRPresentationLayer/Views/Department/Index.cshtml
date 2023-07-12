@@ -1,14 +1,14 @@
 ﻿@model List<Department>
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "الأقسام";
 }
 
-<h1>الاقسام</h1>
-
+@*<h1>الاقسام</h1>
+*@
 <a asp-action="Add" asp-controller="Department" class="btn btn-success"> اضافة قسم  </a>
 
     <table class="table table-border table-hover">
-        <tr>
+    <tr style="background-color: #002d72;">
             <th>الرقم</th>
             <th>اسم القسم</th>
             <th> تعديل  </th>

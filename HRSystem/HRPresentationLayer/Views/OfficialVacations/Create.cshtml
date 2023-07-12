@@ -1,10 +1,14 @@
-﻿@model Infrastructure.ViewModels.OfficialVacationsVM
+﻿@model OfficialVacationsVM
+
+@{
+    ViewData["Title"] = "الأجازات الرسمية";
+    
+}
 
 
-
-<div class="container bg-light">
-    <h3 class="text-center m-5 bg-gradient-faded-secondary-vertical  rounded">الاجازات_الرسميه</h3>
-
+<div class="container bg-light" style="margin-bottom:100px;">
+@*    <h3 class="text-center m-5 bg-gradient-faded-secondary-vertical  rounded">الاجازات_الرسميه</h3>
+*@
     <form asp-action="Create" method="post" dir="rtl">
       
 
@@ -31,7 +35,7 @@
         </div>
 
         <div class="text-center m-5 form-group ">
-            <input type="submit" value="اضافة" class="btn btn-outline-primary w-20 font-weight-bold " />
+            <input type="submit" value="اضافة" class="btn btn-info w-20 font-weight-bold " />
         </div>
     </form>
 
@@ -39,8 +43,8 @@
 
 
 
-<table class="table table-striped">
-        <thead class="accordion-header bg-secondary text-white">
+<table class="table table-striped mb-5">
+        <thead @*class="accordion-header bg-secondary text-white"*@ style="background-color: #002d72;">
         <tr >
                 <th>
                     الاسم
@@ -59,31 +63,24 @@
         @foreach (var item in Model.offvac)
         {
             <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-
-                    @Html.DisplayFor(modelItem => item.Date)
-
-
-                </td>
+                <td>@item.Name</td>
+                 <td>@item.Date.Value.ToShortDateString()</td>
                 <td>
 
                         
                    
-                    <a asp-action="Edit" asp-route-id="@item.Id">
+                    <a asp-action="Edit" asp-route-id="@item.Id"class="btn btn-secondary" >
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-pen" viewBox="0 0 16 16">
                             <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
                         </svg>
                     </a>|
-                        <a asp-action="Details" asp-route-id="@item.Id">
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-warning">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-card-text" viewBox="0 0 16 16">
                                 <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
                                 <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z" />
                             </svg>
                         </a> |
-                        <a asp-action="Delete" asp-route-id="@item.Id" , new { onclick="return confirm ('هل أنت متأكد أنك تريد حذف هذا العنصر؟');" }>
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id" , new { onclick="return confirm ('هل أنت متأكد أنcك تريد حذف هذا العنصر؟');" }>
 
 
 

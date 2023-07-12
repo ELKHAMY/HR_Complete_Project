@@ -1,6 +1,8 @@
-﻿using Domain.Models;
+﻿using Domain.Constants;
+using Domain.Models;
 using Infrastructure.IRepsository;
 using Infrastructure.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HRPresentationLayer.Controllers
@@ -12,6 +14,7 @@ namespace HRPresentationLayer.Controllers
         {
         this.genral = genral;   
         }
+        [Authorize(Permissions.GeneralSettings.View)]
         public IActionResult Index()
         {
 
@@ -31,7 +34,7 @@ namespace HRPresentationLayer.Controllers
         }
 
         //----- edit 
-
+        [Authorize(Permissions.GeneralSettings.Edit)]
         public IActionResult Edit() 
         {
             Hours hmodel = genral.GetHours();
@@ -47,6 +50,7 @@ namespace HRPresentationLayer.Controllers
             return View(model); 
         }
         [HttpPost]
+        [Authorize(Permissions.GeneralSettings.Edit)]
         public IActionResult Edit(HoursweeklyholidaysViewModel nemodel)
         {
             Hours oldmo = genral.GetHours();

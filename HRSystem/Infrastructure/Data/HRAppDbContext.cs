@@ -17,7 +17,7 @@ namespace Infrastructure.Data
         public HRAppDbContext(DbContextOptions<HRAppDbContext> options): base(options)
         {            
         }
-
+        
         public DbSet<Attendance> Attendance { get; set; }
         public DbSet<Department> Department { get; set; }
         public DbSet<Hours> Hours { get; set; }

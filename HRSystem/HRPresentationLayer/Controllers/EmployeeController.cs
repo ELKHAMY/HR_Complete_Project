@@ -1,5 +1,7 @@
-﻿using Domain.Models;
+﻿using Domain.Constants;
+using Domain.Models;
 using Infrastructure.IRepsository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HRPresentationLayer.Controllers
@@ -25,19 +27,21 @@ namespace HRPresentationLayer.Controllers
         #region actions
 
         //--- get all
+        [Authorize(Permissions.Employees.View)]
         public IActionResult Index()
         {
            List<EmployeePersonalData> empmodel = Employeerep.getall();
             return View(empmodel);
         }
         //------ add
-
+        [Authorize(Permissions.Employees.Create)]
         public IActionResult Add() 
         {
             ViewData["deptlist"] = departmentrep.getall();
             return View();
         }
         [HttpPost]
+        [Authorize(Permissions.Employees.Create)]
         public IActionResult Add(EmployeePersonalData emp) 
         {
             if (ModelState.IsValid)
@@ -51,6 +55,7 @@ namespace HRPresentationLayer.Controllers
         }
 
         //---- edit 
+        [Authorize(Permissions.Employees.Edit)]
         public IActionResult Edit(int id)
         {
             EmployeePersonalData oldemp = Employeerep.getbyid(id);
@@ -59,6 +64,7 @@ namespace HRPresentationLayer.Controllers
             return View(oldemp);
         }
         [HttpPost]
+        [Authorize(Permissions.Employees.Edit)]
         public IActionResult Edit( EmployeePersonalData newemp, int id) 
         {
             Employeerep.update(id, newemp);
@@ -67,7 +73,7 @@ namespace HRPresentationLayer.Controllers
             return RedirectToAction("Index");
         }
         //------delete
-
+        [Authorize(Permissions.Employees.Delete)]
         public IActionResult Delete (int id) 
         {
 
@@ -77,6 +83,7 @@ namespace HRPresentationLayer.Controllers
             return View(empmodel);
         }
         [HttpPost]
+        [Authorize(Permissions.Employees.Delete)]
         public IActionResult Delete(EmployeePersonalData oldmodel, int id)
         {
             Employeerep.delete(id);

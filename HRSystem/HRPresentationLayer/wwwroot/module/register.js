@@ -18,13 +18,15 @@ Edit = (id,name, email,roleName,username,password) => {
 }
 
 Reset = () => {
+    document.getElementById("title").innerHTML = " أضافة مستخدم";
     document.getElementById("btnsave").innerHTML = "حفظ";
     document.getElementById("uName").value = "";
     document.getElementById("email").value = "";
+    document.getElementById("username").value = "";
     document.getElementById("roleName").value = "";
     document.getElementById("idUser").value = "";
     $('#fgpassword').show();
     $('#cfgpassword').show();
-    document.getElementById("fgpassword").value = "";
-    document.getElementById("cfgpassword").value = "";
+    document.getElementById("passw").value = "";
+    document.getElementById("passwconfirm").value = "";
 }

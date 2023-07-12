@@ -1,6 +1,8 @@
-﻿using Domain.Models;
+﻿using Domain.Constants;
+using Domain.Models;
 using Infrastructure.IRepsository;
 using Infrastructure.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HRPresentationLayer.Controllers
@@ -8,24 +10,25 @@ namespace HRPresentationLayer.Controllers
     public class OfficialVacationsController : Controller
     {
         
-            IOfficialVacationsRepository vac;
-            public OfficialVacationsController(IOfficialVacationsRepository vac)
+        IOfficialVacationsRepository vac;
+        public OfficialVacationsController(IOfficialVacationsRepository vac)
+        {
+            this.vac = vac;
+        }
+
+
+        [Authorize(Permissions.Account.View)]
+        public IActionResult Create()
+        {
+            var model = new OfficialVacationsVM
             {
-                this.vac = vac;
-            }
+                offvac = vac.GetAll()
+            };
+            return View(model);
+        }
 
-
-
-            public IActionResult Create()
-            {
-                var model = new OfficialVacationsVM
-                {
-                    offvac = vac.GetAll()
-                };
-                return View(model);
-            }
-
-            [HttpPost]
+        [HttpPost]
+        [Authorize(Permissions.Account.Create)]
         public IActionResult Create(OfficialVacationsVM model)
         {
             if (ModelState.IsValid)
@@ -57,6 +60,9 @@ namespace HRPresentationLayer.Controllers
             model.offvac = vac.GetAll();
             return View("Create", model);
         }
+
+
+        [Authorize(Permissions.Account.Delete)]
         public IActionResult Delete(int id)
             {
                 vac.Delete(id);
@@ -64,44 +70,43 @@ namespace HRPresentationLayer.Controllers
                 return RedirectToAction("Create");
             }
 
-            public IActionResult Edit(int id)
+        [Authorize(Permissions.Account.Edit)]
+        public IActionResult Edit(int id)
+        {
+            OfficialVacations editvac = vac.GetById(id);
+            return View(editvac);
+        }
+
+        [HttpPost]
+        [Authorize(Permissions.Account.Edit)]
+        public IActionResult Edit([Bind("Id,Name,Day,Date")] OfficialVacations evac, int id)
+        {
+
+        if (ModelState.IsValid)
+        {
+            var existingVacation = vac.GetAll().FirstOrDefault(v => v.Date == evac.Date);
+
+            if (existingVacation != null)
             {
-                OfficialVacations editvac = vac.GetById(id);
-                return View(editvac);
+                // Vacation with the same date already exists, return an error message
+                ModelState.AddModelError("Date", "الإجازة بهذا التاريخ موجودة بالفعل.");
             }
-
-            [HttpPost]
-
-            public IActionResult Edit([Bind("Id,Name,Day,Date")] OfficialVacations evac, int id)
+            else
             {
-
-            if (ModelState.IsValid)
-            {
-                var existingVacation = vac.GetAll().FirstOrDefault(v => v.Date == evac.Date);
-
-                if (existingVacation != null)
-                {
-                    // Vacation with the same date already exists, return an error message
-                    ModelState.AddModelError("Date", "الإجازة بهذا التاريخ موجودة بالفعل.");
-                }
-                else
-                {
-                    vac.update(id, evac);
-                    vac.Save();
-                    return RedirectToAction("Create");
-
-                }
+                vac.update(id, evac);
+                vac.Save();
+                return RedirectToAction("Create");
             }
+        }
+            return View(evac);
+        }
 
-
-                return View(evac);
-            }
-
-            public IActionResult Details(int id)
-            {
-                OfficialVacations vo = vac.GetById(id);
-                return View(vo);
-            }
+        [Authorize(Permissions.Account.View)]
+        public IActionResult Details(int id)
+        {
+            OfficialVacations vo = vac.GetById(id);
+            return View(vo);
+        }
 
 
         

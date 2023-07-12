@@ -2,9 +2,10 @@
 @model PermissionViewModel
 
 @{
-    
+    ViewData["Title"] = " الصلاحيات";
 }
-<h1>إدارة الصلاحيات (@Model.RoleName)</h1>
+
+<h1>إدارة الصلاحيات [ @Model.RoleName ]</h1>
 <div class="card">
     <div id="viewAll" class="card-body table-responsive">
         <form asp-controller="Permissions" method="post" asp-action="Update" class="d-inline">

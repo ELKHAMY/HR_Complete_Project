@@ -1,4 +1,6 @@
-﻿
+﻿@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService AuthorizationService
+
 <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-end me-3 rotate-caret  bg-gradient-dark" id="sidenav-main">
     <div class="sidenav-header">
         <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute start-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
@@ -18,17 +20,34 @@
                     <span class="nav-link-text me-1">الصفحة الرئيسية </span>
                 </a>
             </li>
-           
-         
-          
-            <li class="nav-item">
-                <a class="nav-link " asp-controller="Employee" asp-action="Index">
+
+            @if (AuthorizationService.AuthorizeAsync(User, Domain.Constants.Permissions.Employees.View).Result.Succeeded)
+            {
+
+
+                <li class="nav-item">
+                    <a class="nav-link " asp-controller="Employee" asp-action="Index">
                     <div class="text-white text-center ms-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons-round opacity-10">table_view</i>
                     </div>
                     <span class="nav-link-text me-1">الموظفين</span>
                 </a>
             </li>
+            }
+
+            @if (AuthorizationService.AuthorizeAsync(User, Domain.Constants.Permissions.AttendanceAndDeparture.View).Result.Succeeded)
+            {
+                <li class="nav-item">
+                    <a class="nav-link " asp-controller="Attendance" asp-action="Index">
+                    <div class="text-white text-center ms-2 d-flex align-items-center justify-content-center">
+                        <i class="material-icons-round opacity-10">table_view</i>
+                    </div>
+                    <span class="nav-link-text me-1">ألحضور والأنصراف</span>
+                </a>
+            </li>
+            }
+            @if (AuthorizationService.AuthorizeAsync(User, Domain.Constants.Permissions.GeneralSettings.View).Result.Succeeded)
+            {
             <li class="nav-item">
                 <a class="nav-link " asp-controller="Genralsetting" asp-action="Index">
                     <div class="text-white text-center ms-2 d-flex align-items-center justify-content-center">
@@ -37,14 +56,21 @@
                     <span class="nav-link-text me-1">الاعدادات العامة</span>
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link " asp-controller="Salary" asp-action="salaryemployee">
+            }
+
+            @if (AuthorizationService.AuthorizeAsync(User, Domain.Constants.Permissions.SalaryReports.View).Result.Succeeded)
+            {
+                <li class="nav-item">
+                    <a class="nav-link " asp-controller="Salary" asp-action="salaryemployee">
                     <div class="text-white text-center ms-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons-round opacity-10">view_in_ar</i>
                     </div>
                     <span class="nav-link-text me-1">رواتب الموظفين</span>
                 </a>
             </li>
+            }
+            @if (AuthorizationService.AuthorizeAsync(User, Domain.Constants.Permissions.Employees.View).Result.Succeeded)
+            {
             <li class="nav-item">
                 <a class="nav-link active" asp-controller="Department" asp-action="Index">
                     <div class="text-white text-center ms-2 d-flex align-items-center justify-content-center">
@@ -53,17 +79,23 @@
                     <span class="nav-link-text me-1">الاقسام</span>
                 </a>
             </li>
-        
-            <li class="nav-item">
-                <a class="nav-link " href="/Account/Role">
+            }
+            @if (AuthorizationService.AuthorizeAsync(User, Domain.Constants.Permissions.Account.View).Result.Succeeded)
+            {
+                <li class="nav-item">
+                    <a class="nav-link " href="/Account/Role">
                     <div class="text-white text-center ms-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">notifications</i>
                     </div>
                     <span class="nav-link-text me-1"> المجموعات</span>
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link " href="/Account/Register">
+            }
+
+            @if (AuthorizationService.AuthorizeAsync(User, Domain.Constants.Permissions.Account.View).Result.Succeeded)
+            {
+                <li class="nav-item">
+                    <a class="nav-link " href="/Account/Register">
                     <div class="text-white text-center ms-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons-round opacity-10">assignment</i>
                     </div>
@@ -71,14 +103,18 @@
                 </a>
                 
             </li>
-            <li class="nav-item">
-                <a class="nav-link " asp-controller="OfficialVacations" asp-action="Create">
+            }
+            @if (AuthorizationService.AuthorizeAsync(User, Domain.Constants.Permissions.Account.View).Result.Succeeded)
+            {
+                <li class="nav-item">
+                    <a class="nav-link " asp-controller="OfficialVacations" asp-action="Create">
                     <div class="text-white text-center ms-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons-round opacity-10">assignment</i>
                     </div>
                     <span class="nav-link-text me-1">الاجازات الرسمية</span>
                 </a>
             </li>
+            }
         </ul>
     </div>
     <div class="sidenav-footer position-absolute w-100 bottom-0 ">

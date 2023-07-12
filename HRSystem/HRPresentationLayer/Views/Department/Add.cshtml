@@ -1,14 +1,14 @@
 ﻿@model Department
 @{
-    ViewData["Title"] = "Add";
+    ViewData["Title"] = "الاقسام/ اضافة";
 }
 
-<h1>اضافة قسم</h1>
-
+@*<h1>اضافة قسم</h1>
+*@
 <form method="post">
     <div>
     <label asp-for="Name"></label>
-    <input class="form-control" asp-for="Name" />
+        <input class="form-control border" asp-for="Name" />
     <span asp-validation-for="Name" class="text-danger" ></span>
     </div>
 

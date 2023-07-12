@@ -11,16 +11,17 @@ namespace Infrastructure.ViewModels
     public class OfficialVacationsVM
     {
 
-            [Key]
-            public int id { get; set; }
-            [Required(ErrorMessage = "الرجاء إدخال الاسم")]
-            public string Name { get; set; }
+        [Key]
+        public int id { get; set; }
+        [Required(ErrorMessage = "الرجاء إدخال الاسم")]
+        public string Name { get; set; }
 
-            [Required(ErrorMessage = "الرجاء إدخال التاريخ")]
-            [DataType(DataType.Date, ErrorMessage = "الرجاء إدخال تاريخ صحيح")]
-            public DateTime Date { get; set; }
+        [Required(ErrorMessage = "الرجاء إدخال التاريخ")]
+        [DataType(DataType.Date, ErrorMessage = "الرجاء إدخال تاريخ صحيح")]
+        //[DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
+        public DateTime? Date { get; set; }
        
-            public List<OfficialVacations>? offvac { get; set; }
+        public List<OfficialVacations>? offvac { get; set; }
         
     }
 }
