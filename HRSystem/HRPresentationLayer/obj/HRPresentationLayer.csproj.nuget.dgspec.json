@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\HRPresentationLayer.csproj": {}
+    "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\HRPresentationLayer.csproj": {}
   },
   "projects": {
-    "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj": {
+    "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\hamed\\.nuget\\packages\\",
-        "outputPath": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Domain\\obj\\",
+        "projectPath": "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Smart Lap\\.nuget\\packages\\",
+        "outputPath": "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Smart Lap\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,25 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\HRPresentationLayer.csproj": {
+    "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\HRPresentationLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\HRPresentationLayer.csproj",
+        "projectUniqueName": "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\HRPresentationLayer.csproj",
         "projectName": "HRPresentationLayer",
-        "projectPath": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\HRPresentationLayer.csproj",
-        "packagesPath": "C:\\Users\\hamed\\.nuget\\packages\\",
-        "outputPath": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\obj\\",
+        "projectPath": "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\HRPresentationLayer.csproj",
+        "packagesPath": "C:\\Users\\Smart Lap\\.nuget\\packages\\",
+        "outputPath": "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\HRPresentationLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Smart Lap\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,16 +83,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj"
+              "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -146,25 +136,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj": {
+    "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\hamed\\.nuget\\packages\\",
-        "outputPath": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Infrastructure\\obj\\",
+        "projectPath": "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Smart Lap\\.nuget\\packages\\",
+        "outputPath": "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Smart Lap\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -172,15 +158,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj": {
-                "projectPath": "F:\\TestingFinal\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj"
+              "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\iti\\final3\\HR_GraduationProject\\HRSystem\\Domain\\Domain.csproj"
               }
             }
           }
@@ -232,7 +217,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

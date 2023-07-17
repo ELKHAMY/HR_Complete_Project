@@ -8,39 +8,46 @@
 
 
 
-@*<h4>اضافة موظف </h4>
-*@<hr />
+<hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-1 "></div>
+    <div class="col-md-10  card ">
         <form asp-action="Add">
           
-            <h3 style="   border: 2px solid black;
-                border-radius: 5px;">
+            <h3 >
             البيانات الشخصية 
             </h3>
+            <br />
+            <div class="row mb-6">
+                <div class="col">
             <div class="form-group">
                 <label  class="control-label">الاسم</label>
-                <input asp-for="Name" class="form-control border" />
+                        <input asp-for="Name" class="form-control border border-2" placeholder="الاسم" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
+                </div>
+
+                <div class="col">
             <div class="form-group">
                 <label  class="control-label">العنوان</label>
-                <input asp-for="Address" class="form-control border" />
+                        <input asp-for="Address" class="form-control border border-2" placeholder="العنوان" />
                 <span asp-validation-for="Address" class="text-danger"></span>
             </div>
+                </div>
+            </div>
+            <div class="row mb-6">
+                <div class="col">
             <div class="form-group">
                 <label  class="control-label">رقم الهاتف</label>
-                <input asp-for="Phone" class="form-control border" />
+                        <input asp-for="Phone" class="form-control border border-2" placeholder="رقم الهاتف" />
                 <span asp-validation-for="Phone" class="text-danger"></span>
             </div>
-            @*<div class="form-group">
-                <label class="control-label">الجنس</label>
-                <input asp-for="Gender" class="form-control border" />
-                <span asp-validation-for="Gender" class="text-danger"></span>
-            </div>*@
+                </div>
+
+                <div class="col">
             <div class="form-group">
                 <label>الجنس</label>
-                <select class="form-control" asp-for="Gender">
+                <select class="form-control border border-2" asp-for="Gender">
                     <option value="0">--اختر الجنس--</option>
                     <option value="رجل">رجل</option>
                     <option value="امراة">امراة</option>
@@ -48,57 +55,82 @@
                 </select>
                 <span asp-validation-for="Gender" class="text-danger"></span>
             </div>
+            </div>
+            </div>
+            <div class="row mb-6">
+                <div class="col">
             <div class="form-group">
                 <label  class="control-label">الجنسية</label>
-                <input asp-for="National" class="form-control border" />
+                        <input asp-for="National" class="form-control border border-2" placeholder="الجنسية" />
                 <span asp-validation-for="National" class="text-danger"></span>
             </div>
+                </div>
+                <div class="col">
             <div class="form-group">
                 <label  class="control-label">تاريخ الميلاد</label>
-                <input asp-for="Birthday" class="form-control border" type="date" />
+                        <input asp-for="Birthday" class="form-control border border-2" type="date" placeholder="تاريخ الميلاد" />
                 <span asp-validation-for="Birthday" class="text-danger"></span>
             </div>
+            </div>
+            </div>
+            <div class="row mb-6">
+                <div class="col">
             <div class="form-group">
                 <label  class="control-label">الرقم القومي</label>
-                <input asp-for="NationalId" class="form-control border" />
+                        <input asp-for="NationalId" class="form-control border border-2" placeholder="الرقم القومي" />
                 <span asp-validation-for="NationalId" class="text-danger"></span>
             </div>
+                </div>
+                <div class="col">
             <div class="form-group">
                 <label >القسم</label>
 
-                <select class="form-control border" asp-for="DepartmentId" asp-items="deptitem">
+                        <select class="form-control border border-2" asp-for="DepartmentId" asp-items="deptitem">
                     <option value="0">-- إختر قسم --</option>
                 </select>
                 <span asp-validation-for="DepartmentId" class="text-danger"></span>
             </div>
+            </div>
+            </div>
           <br />
-            <h3 style="   border: 2px solid black;
-                border-radius: 5px;">
+            <h3>
                 بيانات العمل
             </h3>
           <br />
+            <div class="row mb-6">
+                <div class="col">
             <div class="form-group">
                 <label  class="control-label">تاريخ التعاقد</label>
-                <input asp-for="WorkDate" class="form-control border" type="date" />
+                <input asp-for="WorkDate" class="form-control border border-2" type="date" placeholder="تاريخ التعاقد" />
                 <span asp-validation-for="WorkDate" class="text-danger"></span>
             </div>
-
+                </div>
+                <div class="col">
             <div class="form-group">
                 <label  class="control-label">الراتب</label>
-                <input asp-for="salary" class="form-control border" />
+                <input asp-for="salary" class="form-control border border-2" placeholder="الراتب" />
                 <span asp-validation-for="salary" class="text-danger"></span>
             </div>
+                </div>
+            </div>
+            <div class="row mb-6">
+                <div class="col">
             <div class="form-group">
                 <label  class="control-label">موعد الحضور</label>
-                <input asp-for="AttandanceDate" class="form-control border" type="time" />
+                <input asp-for="AttandanceDate" class="form-control border border-2" type="time" placeholder="موعد الحضور" />
                 <span asp-validation-for="AttandanceDate" class="text-danger"></span>
             </div>
+                </div>
+                    <div class="col">
             <div class="form-group">
                 <label  class="control-label">موعد الانصراف</label>
-                <input asp-for="OutDate" class="form-control border" type="time" />
+                <input asp-for="OutDate" class="form-control border border-2" type="time" placeholder="موعد الانصراف" />
                 <span asp-validation-for="OutDate" class="text-danger" ></span>
             </div>
-            <div class="form-group">
+                </div>
+            </div>
+            <br />
+            <div class="form-group center">
                 <input type="submit" value="اضافة" class="btn btn-success mt-2" />
             </div>
         </form>
@@ -108,7 +140,9 @@
 <div>
     <a asp-action="Index">الرجوع للقائمة </a>
 </div>
-
+<div class="col-md-1 "></div>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+
+     
