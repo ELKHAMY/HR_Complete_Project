@@ -25,7 +25,7 @@ The HR System is a comprehensive web application designed to streamline HR proce
 
 To install and run the HR System on your local machine, follow these steps:
 
-1. Clone the project repository from [GitHub](https://github.com/your-hr-system-repo).
+1. Clone the project repository from [GitHub](https://github.com/HR-Graduation-Project/HR_GraduationProject.git).
 2. Ensure that you have ASP.NET Core 7 installed on your machine.
 3. Open the project in your preferred integrated development environment (IDE), such as Visual Studio or Visual Studio Code.
 4. Build the project to restore NuGet packages and compile the source code.
