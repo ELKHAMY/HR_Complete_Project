@@ -9,161 +9,161 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HRPresentationLayer
 build_property.RootNamespace = HRPresentationLayer
-build_property.ProjectDir = E:\iti\final3\HR_GraduationProject\HRSystem\HRPresentationLayer\
+build_property.ProjectDir = E:\Test\HR_GraduationProject\HRSystem\HRPresentationLayer\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\iti\final3\HR_GraduationProject\HRSystem\HRPresentationLayer
+build_property.MSBuildProjectDirectory = E:\Test\HR_GraduationProject\HRSystem\HRPresentationLayer
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Account/Denied.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Account/Denied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Account/Index.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Account/Login.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Account/Register.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Account/Role.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Account/Role.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Account/_PartialRegister.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Account/_PartialRegister.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxfUGFydGlhbFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Account/_PartialRole.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Account/_PartialRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxfUGFydGlhbFJvbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Attendance/Edit.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Attendance/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Attendance/Index.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Attendance/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Attendance/New.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Attendance/New.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxOZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Department/Add.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Department/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Department/Delete.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Department/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Department/Edit.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Department/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Department/Index.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Department/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Employee/Add.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Employee/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Employee/Delete.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Employee/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Employee/Edit.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Employee/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Employee/Index.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Genralsetting/Edit.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Genralsetting/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmFsc2V0dGluZ1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Genralsetting/Index.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Genralsetting/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmFsc2V0dGluZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Home/Index.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Home/Privacy.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/OfficialVacations/Create.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/OfficialVacations/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNpYWxWYWNhdGlvbnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/OfficialVacations/Details.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/OfficialVacations/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNpYWxWYWNhdGlvbnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/OfficialVacations/Edit.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/OfficialVacations/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNpYWxWYWNhdGlvbnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Permissions/Index.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Permissions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzc2lvbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Salary/salaryemployee.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Salary/salaryemployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJ5XHNhbGFyeWVtcGxveWVlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/Error.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_LayoutNoOptions.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_LayoutNoOptions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXROb09wdGlvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialAsideNav.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialAsideNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsQXNpZGVOYXYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialHomeCards.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialHomeCards.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsSG9tZUNhcmRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialNavbar.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialNavbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsTmF2YmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialUIOptions.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PartialUIOptions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsVUlPcHRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PatrialAccountIndex.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_PatrialAccountIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXRyaWFsQWNjb3VudEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/_ViewImports.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/_ViewStart.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/iti/final3/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_Layout.cshtml]
+[E:/Test/HR_GraduationProject/HRSystem/HRPresentationLayer/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dhgsq5rb42

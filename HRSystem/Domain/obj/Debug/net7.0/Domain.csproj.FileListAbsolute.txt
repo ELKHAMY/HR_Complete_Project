@@ -82,3 +82,15 @@ E:\iti\final3\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.dll
 E:\iti\final3\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\refint\Domain.dll
 E:\iti\final3\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.pdb
 E:\iti\final3\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\ref\Domain.dll
+E:\Test\HR_GraduationProject\HRSystem\Domain\bin\Debug\net7.0\Domain.deps.json
+E:\Test\HR_GraduationProject\HRSystem\Domain\bin\Debug\net7.0\Domain.dll
+E:\Test\HR_GraduationProject\HRSystem\Domain\bin\Debug\net7.0\Domain.pdb
+E:\Test\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+E:\Test\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Test\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+E:\Test\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+E:\Test\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+E:\Test\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.dll
+E:\Test\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\refint\Domain.dll
+E:\Test\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\Domain.pdb
+E:\Test\HR_GraduationProject\HRSystem\Domain\obj\Debug\net7.0\ref\Domain.dll

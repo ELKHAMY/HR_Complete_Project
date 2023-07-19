@@ -131,6 +131,7 @@
             <br />
             <div class="form-group center">
                 <input type="submit" value="حفظ" class="btn btn-success mt-2" />
+                <button asp-action="Index" class="btn btn-info mt-2">الرجوع للقائمة</button>
             </div>
         </form>
     </div>
@@ -138,9 +139,7 @@
 </div>
 <div class="col-md-1 "></div>
 
-<div>
-    <a asp-action="Index">الرجوع للقائمة</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

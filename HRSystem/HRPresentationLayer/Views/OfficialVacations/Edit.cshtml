@@ -4,10 +4,10 @@
     ViewData["Title"] = "الأجازات الرسمية / تعديل";
 }
 
-<div class="container bg-light m-5 " dir="rtl">
+<div class="container bg-light m-5 col-lg-11" dir="rtl">
 
 
-<form method="post" asp-action="Edit">
+<form method="post" asp-action="Edit" class="col-lg-10">
     <div>
         <label asp-for="Name">الاسم</label>
         <input asp-for="Name" type="text" class="form-control" id="Name" />
@@ -19,13 +19,9 @@
         <span asp-validation-for="Date" class="text-danger"></span>
     </div>
     <input type="submit" value="تعديل" class="btn btn-success mt-2" />
+        <button asp-action="Create" class="btn btn-info mt-2">الرجوع الي القائمة</button>
 
 </form>
-<div>
-
-
-    <a asp-action="Create">الرجوع الي القائمة</a>
-</div>
 
 </div>
 @section Scripts{
